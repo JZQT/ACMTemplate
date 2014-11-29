@@ -5,15 +5,16 @@
 
 vector <int> e[N];  //vector邻接表存图
 int dfn[N], low[N];
-int vis[N];         //0代表未访问，1代表已访问，2代表在栈中
 int stack[N], stop; //手写栈
+bool instack[N];
 int belong[N];      //存储该点属于哪一个强连通分量
 int timer;          //时间戳
 int sccn;           //强连通分量个数
 
 void Init()
 {
-    memset(vis, 0, sizeof(vis));
+    memset(dfn, -1, sizeof(dfn));
+    memset(instack, false, sizeof(vis));
     stop = timer = sccn = 0;
     for (int i=1; i<=n; ++i) e[i].clear();
     return;
@@ -23,8 +24,8 @@ void Tarjan(int x)
 {
     int y;
     dfn[x] = low[x] = ++timer;
-    stack[top++] = y;
-    vis[y] = 2;
+    stack[stop++] = x;
+    instack[x] = true;;
     int size = e[x].size();
     for (int i=0; i<size; ++i)
     {
@@ -34,7 +35,7 @@ void Tarjan(int x)
             Tarjan(y);
             low[x] = min(low[x], low[y]);
         }
-        else if (vis[y] == 2)
+        else if (instack[y])
         {
             low[x] = min(low[x], dfn[y]);
         }
@@ -45,7 +46,7 @@ void Tarjan(int x)
         do
         {
             y = stack[--stop];
-            vis[y] = 1;
+            instack[y] = false;
             belong[y] = sccn;
         } while (x != y);
     }
@@ -56,7 +57,7 @@ void DataProcess()
 {
     for (int i=1; i<=n; ++i)
     {
-        if (!vis[i])
+        if (dfn[i] == -1)
         {
             Tarjan(i);
         }
