@@ -1,13 +1,13 @@
 /* 单源最短路dijkstra算法模板
  * 
  * 版本：
- * 邻接矩阵存图
+ * vector存图
  *
  * 注意：
  * 该算法适用于有向图和无向图
  *
  * 题意：
- * 在无向图中，给n个点和m条边，以及起点和终点。
+ * 在有向图中，给n个点和m条边，以及起点和终点。
  * 求从起点到终点花费的最小权值。
  * 如果不能从起点到达终点输出-1。
  * 可能有重边，但无自环。
@@ -23,6 +23,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
@@ -30,7 +31,13 @@ const int N = 1001;
 const int INF = 0x3f3f3f3f;
 const int inf = 0x3f;
 
-int map[N][N];
+struct edge     //定义边结构体
+{
+    int to;     //存储到达的点
+    int len;    //存储边的权值
+};
+
+vector <edge> e[N];
 int dis[N];     //dis[i]表示起点到i点花费的最小权值
 int n, m, start, goal;
 
@@ -53,14 +60,14 @@ int main()
 void InitRead()
 {
     memset(dis, inf, sizeof(dis));
-    memset(map, inf, sizeof(map));
+    for (int i=1; i<=n; ++i) e[i].clear();
     scanf("%d %d", &start, &goal);
     int a, b, c;
     for (int i=0; i<m; ++i)
     {
         scanf("%d %d %d", &a, &b, &c);
-        //不会存储重边，只存储最短的边
-        map[a][b] = map[b][a] = min(map[a][b], c);
+        edge temp = {b, c};
+        e[a].push_back(temp);
     }
     return;
 }
@@ -68,7 +75,7 @@ void InitRead()
 void DataProcess()
 {
     Dijkstra(start);
-    printf("%d\n", dis[goal]);
+    printf("%d\n", dis[goal] == INF ? -1 : dis[goal]);
     return;
 }
 
@@ -89,11 +96,14 @@ void Dijkstra(int s)
             }
         }
         vis[k] = true;
-        for (int j=1; j<=n; ++j)
+        int size = e[k].size();
+        for (int j=0; j<size; ++j)
         {
-            if (!vis[j] && dis[j] > dis[k] + map[k][j])
+            int to = e[k][j].to;
+            int len = e[k][j].len;
+            if (!vis[to] && dis[to] > dis[k] + len)
             {
-                dis[j] = dis[k] + map[k][j];
+                dis[to] = dis[k] + len;
             }
         }
     }
