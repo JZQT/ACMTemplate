@@ -1,9 +1,11 @@
-/* 强连通分量tarjan算法缩点模板
- * vector 存图版本
+/* 强连通分量tarjan算法模板
+ * 版本：
+ * vector存图
+ * 缩点
  * 
  * 题意：在有向图中，给n个点m条边。
- * 求出其中强连通分量的个数，不考虑
- * 重边与自环。
+ * 求出其中强连通分量的个数。
+ * 保证无重边与自环。
  * 
  * N 表示图中节点的最大数量
  * M 表示图中边的最大数量
@@ -19,9 +21,8 @@
 using namespace std;
 
 const int N = 100001;
-const int M = 300001;
 
-vector <int> e[N];  //vector邻接表存图
+vector <int> e[N];
 int dfn[N], low[N];
 int stack[N], stop; //手写栈
 bool instack[N];    //判断该点是否在栈中
