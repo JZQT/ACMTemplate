@@ -1,12 +1,17 @@
 /* 强连通分量tarjan算法模板
+ *
  * 版本：
  * vector存图
- * 缩点
+ * 强连通分量缩点
  * 
+ * 注意：
+ * 本算法适用于有向图
+ *
  * 题意：在有向图中，给n个点m条边。
  * 求出其中强连通分量的个数。
  * 保证无重边与自环。
  * 
+ * 数据：
  * N 表示图中节点的最大数量
  * M 表示图中边的最大数量
  * n 表示图中节点的数量    编号1~n
@@ -49,10 +54,13 @@ int main()
 
 void InitRead()
 {
+    stop = timer = sccn = 0;
     memset(dfn, 0, sizeof(dfn));
     memset(instack, false, sizeof(instack));
-    stop = timer = sccn = 0;
-    for (int i=1; i<=n; ++i) e[i].clear();
+    for (int i=1; i<=n; ++i) 
+    {
+        e[i].clear();
+    }
     int a, b;
     for (int i=0; i<m; ++i)
     {
