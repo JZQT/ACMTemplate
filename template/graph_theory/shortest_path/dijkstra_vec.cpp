@@ -95,7 +95,7 @@ void Dijkstra(int s)
                 minl = dis[k = j];
             }
         }
-        vis[k] = true;
+        vis[k] = true;      //表示从起点到k的最短路找到了
         int size = e[k].size();
         for (int j=0; j<size; ++j)
         {

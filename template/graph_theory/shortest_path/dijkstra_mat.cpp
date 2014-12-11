@@ -88,7 +88,7 @@ void Dijkstra(int s)
                 minl = dis[k = j];
             }
         }
-        vis[k] = true;
+        vis[k] = true;      //表示从起点到k的最短路找到了
         for (int j=1; j<=n; ++j)
         {
             if (!vis[j] && dis[j] > dis[k] + map[k][j])
