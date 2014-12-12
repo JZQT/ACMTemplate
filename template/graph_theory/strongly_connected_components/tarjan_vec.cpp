@@ -10,7 +10,7 @@
  *
  * 题意：
  * 在有向图中，给n个点m条边。
- * 求缩点后强连通分量图中的最长路径（关键路径）。
+ * 求缩点后强连通分量图中的最长路径权值（关键路径）。
  * 每个强连通分量的权值为每个点的权值和。
  * 
  * 数据：
@@ -99,7 +99,7 @@ void DataProcess()
         {
             if (belong[i] != belong[e[i][j]])
             {
-                //注意这里是belong[i]而不是i
+                //注意这里的强连通的编号是belong[i]而不是i
                 indeg[belong[e[i][j]]]++;
                 scce[belong[i]].push_back(belong[e[i][j]]);
             }
@@ -121,7 +121,7 @@ void Tarjan(int x)
     int y;
     dfn[x] = low[x] = ++timer;
     stack[stop++] = x;
-    instack[x] = true;;
+    instack[x] = true;
     int size = e[x].size();
     for (int i=0; i<size; ++i)
     {
