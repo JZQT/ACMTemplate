@@ -3,15 +3,13 @@
  * 版本：
  * vector存图
  * 强连通分量缩点
-<<<<<<< HEAD
  * 建强连通分量图
-=======
->>>>>>> b60f017892c22e9aa3a158f882c9ef1110f5a779
  * 
  * 注意：
  * 本算法适用于有向图
  *
- * 题意：在有向图中，给n个点m条边。
+ * 题意：
+ * 在有向图中，给n个点m条边。
  * 求缩点后强连通分量图中的最长路径（关键路径）。
  * 每个强连通分量的权值为每个点的权值和。
  * 
@@ -66,7 +64,6 @@ int main()
 
 void InitRead()
 {
-<<<<<<< HEAD
     ans = stop = timer = sccn = 0;
     memset(dfn, 0, sizeof(dfn));
     memset(instack, false, sizeof(instack));
@@ -76,14 +73,6 @@ void InitRead()
         scanf("%d", &weight[i]);    //输入点权
         e[i].clear();
         scce[i].clear();
-=======
-    stop = timer = sccn = 0;
-    memset(dfn, 0, sizeof(dfn));
-    memset(instack, false, sizeof(instack));
-    for (int i=1; i<=n; ++i) 
-    {
-        e[i].clear();
->>>>>>> b60f017892c22e9aa3a158f882c9ef1110f5a779
     }
     int a, b;
     for (int i=0; i<m; ++i)
