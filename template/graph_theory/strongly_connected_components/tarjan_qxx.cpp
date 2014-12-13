@@ -45,7 +45,7 @@ int belong[N];          //存储该点属于哪一个强连通分量
 int timer;              //时间戳
 int sccn;               //强连通分量个数
 int indeg[N];           //存储强连通点的入度
-int w[N];               //点权值
+int weight[N];          //点权值
 int sccw[N];            //强连通分量权值
 int sccen;              //强连通图的边数
 int ans;
@@ -59,7 +59,7 @@ void DataProcess();
 
 void Tarjan(int x);
 
-void Dfs(int x, int temp); //dfs求强连通分量图的最长路径，可dp优化
+void Dfs(int x, int w); //dfs求强连通分量图的最长路径，可dp优化
 
 int main()
 {
@@ -89,7 +89,7 @@ void InitRead()
     memset(indeg, 0, sizeof(indeg));
     for (int i=1; i<=n; ++i) 
     {
-        scanf("%d", &w[i]);    //输入点权
+        scanf("%d", &weight[i]);    //输入点权
     }
     int a, b;
     for (int i=0; i<m; ++i)
@@ -154,25 +154,25 @@ void Tarjan(int x)
     if (dfn[x] == low[x])   //此时代表找到一个强连通分量
     {
         sccn++;
-        int temp = 0;  //开始计算该强连通分量的权值
+        int w = 0;  //开始计算该强连通分量的权值
         do
         {
             y = stack[--stop];
             instack[y] = false;
             belong[y] = sccn;
-            temp += w[y];
+            w += weight[y];
         } while (x != y);
-        sccw[sccn] = temp;
+        sccw[sccn] = w;
     }
     return;
 }
 
-void Dfs(int x, int temp)
+void Dfs(int x, int w)
 {
-    if (scchead[x] == -1) ans = max(ans, temp);
+    if (scchead[x] == -1) ans = max(ans, w);
     for (int i=scchead[x]; i!=-1; i=scce[i].next)
     {
-        Dfs(scce[i].to, temp + sccw[scce[i].to]);
+        Dfs(scce[i].to, w + sccw[scce[i].to]);
     }
     return;
 }
