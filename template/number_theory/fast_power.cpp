@@ -50,8 +50,8 @@ LONG FastMul(LONG a, LONG b, LONG mod)
             ans += a;
             ans %= mod;
         }
-        a <<= 1;
         b >>= 1;
+        a <<= 1;
         a %= mod;
     }
     return ans;

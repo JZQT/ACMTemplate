@@ -22,9 +22,9 @@ using namespace std;
 
 typedef long long LONG;
 
-inline LONG Gcd(LONG a, LONG b);    //辗转相除法求最大公约数
+LONG Gcd(LONG a, LONG b);    //辗转相除法求最大公约数
 
-inline LONG Lcm(LONG a, LONG b);    //求最小公倍数
+LONG Lcm(LONG a, LONG b);    //求最小公倍数
 
 int main()
 {
@@ -36,12 +36,12 @@ int main()
     return 0;
 }
 
-inline LONG Gcd(LONG a, LONG b)
+LONG Gcd(LONG a, LONG b)
 {
     return b == 0 ? a : Gcd(b, a % b);
 }
 
-inline LONG Lcm(LONG a, LONG b)
+LONG Lcm(LONG a, LONG b)
 {
     return a / Gcd(a, b) * b;   //先乘再除可能导致类型范围溢出
 }
