@@ -24,8 +24,8 @@
     * map
     * set
 * [数据结构](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure)
-    * [幷查集](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/trie)
-    * [字典树](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/union_find_set)
+    * [幷查集](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/union_find_set)
+    * [字典树](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/trie)
 * [图论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory)
     * [存图方式](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph)
         * [邻接矩阵](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/mat)
