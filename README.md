@@ -16,7 +16,7 @@
 ## 分类说明
 
 * [C++STL](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL)
-    * [string](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/string.md)
+    * [string](https://coding.net/u/JZQT/p/ACM_Template/git/blob/master/C++STL/string.md)
     * [sort](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/sort)
     * queue
     * stack
