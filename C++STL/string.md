@@ -51,7 +51,7 @@ printf("%d\n", str.size());
 ```
 这两个成员函数除了名字不同之外没有任何区别，都是返回字符串所占的**字节数**，之所以存在`size()`是为了保持与其他STL容器的一致。
 
-string比较字符串是否相等以及字典序大小不能像C语言那样使用strcmp函数，string重载了`<`,`<=`,`>`,`>=`,`!=`,`==`这些运算符以方便字符串比较，如下
+string比较字符串是否相等以及字典序大小不能像C语言那样使用strcmp函数，string重载了`<`,`<=`,`>`,`>=`,`!=`,`==`这些运算符以方便字符串比较，比如
 ```cpp
 string a = "abcd";
 string b = "abc";
@@ -59,3 +59,25 @@ string b = "abc";
 puts(a > b ? "a > b" : "a <= b");
 puts(a == b ? "a == b" : "a != b");
 ```
+
+想要在string字符串末尾追加字符串，不能像C语言那样使用字符串连接函数`strcat()`，不过string重载的`+=`运算符以及成员函数`append`可以解决这个问题，比如
+```cpp
+string a = "Hello ";
+string b = "World!";
+char c[] = "JZQT!";
+
+a += b;
+a += c;
+//以下方式与上面一样
+a.append(b);
+a.append(c);
+```
+
+
+清空字符串内容，也就是将字符串变为空串，使用string的成员函数`clear()`，同时可以使用成员函数`empty()`来判断string字符串是否为空，比如
+```cpp
+string str = "Hello";
+str.clear();
+puts(str.empty() ? "empty" : "noempty");
+```
+
