@@ -20,7 +20,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 * [C++STL](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL)
     * [string](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/string)
     * [sort](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/sort)
-    * pair
+    * [pair](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/pair)
     * queue
     * stack
     * vector
