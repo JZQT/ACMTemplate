@@ -1,23 +1,26 @@
 # ACM_Template
 
+> Created by JZQT on 2014-11-11.
 
 ## 概述
-我的ACM代码模板知识库项目，包含**文档**和**代码**两类。供**学习**和**总结**之用。
+ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**和**总结**之用。
 
 * 文档
 
-    包含算法讲解，心得体会以及一些说明等。
+    对应的知识点文件夹中的README.md文档，包含算法介绍以及讲解，心得体会以及一些说明等。
 
 * 代码
 
-    算法模板的代码实现。
+    C++代码文件，算法模板的代码实现。
 
+**注意：由于仅用于ACM竞赛学习，对于一些知识点介绍不全面彻底，比如C++STL中有许多东西没有讲到，有兴趣者可自行学习。**
 
 ## 分类说明
 
 * [C++STL](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL)
-    * [string](https://coding.net/u/JZQT/p/ACM_Template/git/blob/master/C++STL/string.md)
+    * [string](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/string)
     * [sort](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/sort)
+    * pair
     * queue
     * stack
     * vector
