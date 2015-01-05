@@ -32,6 +32,41 @@ string str(100, 'a');
 ```
 这样构造出来的str对象是一个字符串长度为100，全部由小写字母a构成的字符串。
 
+#### 输入输出
+由于string属于C++语言的东西，所以string的输入输出方式一般是`cin`与`cout`，比如
+```cpp
+string str;
+cin >> str;     //输入
+cout << str;    //输出
+```
+不过也许你会不习惯，因为ACM里面一般是使用C语言的`scanf()`与`printf()`函数来输入输出的。
+
+貌似无法使用`scanf()`函数来为string对象输入，不过可以这样子解决，比如
+```cpp
+char a[100];
+string b;
+scanf("%s", a);
+b = a;
+```
+一般来说是不会遇到这样的情况的，在ACM中一般都是使用string作为某数据结构的模板类型之一，一般用不到string的输入。
+
+如果你想用C语言的输出方式来输出string对象，它的成员函数`data()`和`c_str()`可以帮你解决这个问题，比如
+```cpp
+string str = "Hello World!"
+
+printf("%s\n", str.data());
+printf("%s\n", str.c_str());
+```
+两种方式效果完全一样，不过要注意，这两个成员函数返回的是**字符串常量**，不要使用字符串变量来存储，看下面的示例
+```cpp
+string str = "Hello World!"
+
+char *pstr1 = str.data();           //编译出错
+char *pstr2 = str.c_str();          //编译出错
+const char *pstr3 = str.data();     //正常编译
+const char *pstr4 = str.c_str();    //正常编译
+```
+
 #### 修改与访问
 string类重载了`[]`运算符使得它与C风格的字符串一样可以**修改**和**访问**字符串中字符，比如
 ```cpp
@@ -68,11 +103,9 @@ char c[] = "JZQT!";
 
 a += b;
 a += c;
-//以下方式与上面一样
-a.append(b);
+a.append(b);    //append方式与+=方式效果一样
 a.append(c);
 ```
-
 
 清空字符串内容，也就是将字符串变为空串，使用string的成员函数`clear()`，同时可以使用成员函数`empty()`来判断string字符串是否为空，比如
 ```cpp
@@ -80,4 +113,3 @@ string str = "Hello";
 str.clear();
 puts(str.empty() ? "empty" : "noempty");
 ```
-
