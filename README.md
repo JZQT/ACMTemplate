@@ -64,6 +64,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |:----------------|:------------------------------------|
 |标准模板库       |standard_template_library(STL)       |
 |数据结构         |data_structure                       |
+|字符串           |string                               |
 |队列             |queue                                |
 |栈               |stack                                |
 |优先队列         |priority_queue                       |
@@ -84,7 +85,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |无向图           |undirected_graph                     |
 |双连通分量       |biconnected_components(bcc)          |
 |割点(割顶)       |cut_point(cut_vertex)                |
-|割边(桥)         |cut_edge                             |
+|割边(桥)         |cut_edge(bridge)                     |
 |有向图           |directed_graph                       |
 |强连通分量       |strongly_connected_components(scc)   |
 |数学             |math                                 |
