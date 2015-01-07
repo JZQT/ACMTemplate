@@ -17,43 +17,43 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 
 ## 分类说明
 
-* [C++STL](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL)
-    * [string](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/string)
-    * [sort](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/sort)
-    * [pair](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/pair)
+* [C++STL](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL "C++标准模板库")
+    * [string](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/string "字符串类")
+    * [sort](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/sort "快速排序算法")
+    * [pair](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/pair "对组")
     * queue
     * stack
     * vector
     * priority_queue
     * map
     * set
-* [数据结构](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure)
-    * [幷查集](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/union_find_set)
-    * [字典树](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/trie)
-* [图论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory)
-    * [存图方式](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph)
-        * [邻接矩阵](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/mat)
-        * [vector邻接表](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/vec)
-        * [链式前向星](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/qxx)
+* [数据结构](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure "data_structure")
+    * [幷查集](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/union_find_set "union_find_set")
+    * [字典树](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/trie "trie")
+* [图论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory "graph_theory")
+    * [存图方式](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph "save_graph")
+        * [邻接矩阵](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/mat "adjacency_matrix(mat)")
+        * [vector邻接表](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/vec "vector(vec)")
+        * [链式前向星](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/qxx "(qxx)")
     * 最小生成树
         * kruskal算法
         * prim算法
-    * [最短路](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/shortest_path)
-        * [dijkstra算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/shortest_path/dijkstra)
-    * [二分图](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/bipartite_graph)
-        * [hungary算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/bipartite_graph/hungary)
+    * [最短路](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/shortest_path "shortest_path")
+        * [dijkstra算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/shortest_path/dijkstra "dijkstra")
+    * [二分图](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/bipartite_graph "bipartite_graph")
+        * [匈牙利算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/bipartite_graph/hungary "hungary")
     * 无向图
-        * 双连通分量
-            * tarjan算法
         * 割点与割边
             * tarjan算法
-    * [有向图](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph)
-        * [强连通分量](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components)
-            * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components/tarjan)
+        * 双连通分量
+            * tarjan算法
+    * [有向图](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph "directed_graph")
+        * [强连通分量](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components "strongly_connected_components")
+            * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components/tarjan "tarjan")
 * 数学
-* [数论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory)
-    * [最大公约数和最小公倍数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory/gcd_lcm)
-    * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory/fast_power)
+* [数论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory "number_theory")
+    * [最大公约数和最小公倍数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory/gcd_lcm "欧几里得算法")
+    * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory/fast_power "fast_power")
 * 计算几何
 
 ## 中英文对照表
@@ -80,6 +80,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |最小生成树       |minimum_spanning_tree(mst)           |
 |最短路           |shortest_path                        |
 |二分图           |bipartite_graph                      |
+|匈牙利算法       |hungary                              |
 |无向图           |undirected_graph                     |
 |双连通分量       |biconnected_components(bcc)          |
 |割点(割顶)       |cut_point(cut_vertex)                |
