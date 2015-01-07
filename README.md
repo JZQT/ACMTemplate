@@ -42,11 +42,14 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
         * [dijkstra算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/shortest_path/dijkstra)
     * [二分图](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/bipartite_graph)
         * [hungary算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/bipartite_graph/hungary)
-    * [强连通分量](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/strongly_connected_components)
-        * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/strongly_connected_components/tarjan)
-    * 双连通分量
-        * tarjan算法
-    * 割点与割边
+    * 无向图
+        * 双连通分量
+            * tarjan算法
+        * 割点与割边
+            * tarjan算法
+    * [有向图](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph)
+        * [强连通分量](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components)
+            * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components/tarjan)
 * 数学
 * [数论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory)
     * [最大公约数和最小公倍数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory/gcd_lcm)
@@ -77,10 +80,12 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |最小生成树       |minimum_spanning_tree(mst)           |
 |最短路           |shortest_path                        |
 |二分图           |bipartite_graph                      |
-|强连通分量       |strongly_connected_components(scc)   |
+|无向图           |undirected_graph                     |
 |双连通分量       |biconnected_components(bcc)          |
 |割点(割顶)       |cut_point(cut_vertex)                |
 |割边(桥)         |cut_edge                             |
+|有向图           |directed_graph                       |
+|强连通分量       |strongly_connected_components(scc)   |
 |数学             |math                                 |
 |数论             |number_theory                        |
 |最大公约数       |greatest_common_divisor(gcd)         |
