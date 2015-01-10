@@ -30,6 +30,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 * [数据结构](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure "data_structure")
     * [幷查集](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/union_find_set "union_find_set")
     * [字典树](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/trie "trie")
+    * 线段树
 * [图论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory "graph_theory")
     * [存图方式](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph "save_graph")
         * [邻接矩阵](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/mat "adjacency_matrix(mat)")
@@ -40,8 +41,11 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
         * prim算法
     * [最短路](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/shortest_path "shortest_path")
         * [dijkstra算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/shortest_path/dijkstra "dijkstra")
+        * SPFA算法
+        * floyd算法
     * [二分图](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/bipartite_graph "bipartite_graph")
         * [匈牙利算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/bipartite_graph/hungary "hungary")
+        * KM算法
     * 无向图
         * 割点与割边
             * tarjan算法
@@ -50,6 +54,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
     * [有向图](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph "directed_graph")
         * [强连通分量](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components "strongly_connected_components")
             * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components/tarjan "tarjan")
+    * 网络流
 * 数学
 * [数论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory "number_theory")
     * [最大公约数和最小公倍数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory/gcd_lcm "欧几里得算法")
@@ -58,7 +63,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 
 ## 中英文对照表
 
-##### 注：小括号内为别名或简写
+**注：小括号内为别名或简写，英文并不一定是对应中文的翻译。**
 
 |中文             |English                              |
 |:----------------|:------------------------------------|
