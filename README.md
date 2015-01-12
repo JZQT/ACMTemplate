@@ -55,10 +55,10 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
         * [强连通分量](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components "strongly_connected_components")
             * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components/tarjan "tarjan")
     * 网络流
-* 数学
-    * [数论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory "number_theory")
-        * [欧几里得算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory/gcd_lcm "euclid_algorithm")
-        * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/number_theory/fast_power "fast_power")
+* [数学](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math "math")
+    * [数论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory "number_theory")
+        * [欧几里得算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/gcd_lcm "euclid_algorithm")
+        * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/fast_power "fast_power")
 * 计算几何
 
 ## 中英文对照表
