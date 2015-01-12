@@ -1,10 +1,11 @@
 /* 快速线性筛法模板
  * 
  * 题意：
- * 输出1~N之间的素数表
+ * 输出1~n之间的素数表
  * 
  * 数据：
- * N 表示素数的最大范围
+ * N 表示n的最大值
+ * n 表示筛素数的最大范围
  */
 #include <cstdio>
 #include <cstdlib>
@@ -17,15 +18,21 @@ const int N = 10000001;
 
 bool isprime[N];    //是否为素数
 int primes[N], pn;  //素数表与表中素数个数
+int n;
 
 void InitRead();
 
 void DataProcess();
 
+void FastSieve(int maxn);   //快速线性筛法筛出区间[1,maxn)内的素数表
+
 int main()
 {
-    InitRead();
-    DataProcess();
+    while (~scanf("%d", &n))
+    {
+        InitRead();
+        DataProcess();
+    }
     return 0;
 }
 
@@ -39,18 +46,24 @@ void InitRead()
 
 void DataProcess()
 {
-    for (int i=2; i<N; ++i)
+    FastSieve(n+1);
+    for (int i=0; i<pn; ++i)
+    {
+        printf("%d%c", primes[i], i == pn - 1 ? '\n' : ' ');
+    }
+    return;
+}
+
+void FastSieve(int maxn)
+{
+    for (int i=2; i<maxn; ++i)
     {
         if (isprime[i]) primes[pn++] = i;
-        for (int j=0; j<pn && i*primes[j]<N; ++j)
+        for (int j=0; j<pn && i*primes[j]<maxn; ++j)
         {
             isprime[i*primes[j]] = false;
             if (i % primes[j] == 0) break;
         }
-    }
-    for (int i=0; i<pn; ++i)
-    {
-        printf("%d ", primes[i]);
     }
     return;
 }

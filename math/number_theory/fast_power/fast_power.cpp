@@ -12,7 +12,7 @@
  * 输出 x^y % m
  * 
  * 数据：
- * x, y m代表三个非负整数，范围不超过long long
+ * x, y, m 代表三个非负整数，范围不超过long long
  */
 #include <cstdio>
 #include <cstdlib>

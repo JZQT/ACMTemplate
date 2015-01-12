@@ -57,13 +57,14 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
     * 网络流
 * [数学](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math "math")
     * [数论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory "number_theory")
-        * [欧几里得算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/gcd_lcm "euclid_algorithm")
+        * [欧几里得算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/gcd_lcm "Euclid_algorithm")
         * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/fast_power "fast_power")
         * [素数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime "prime")
-            * 素数判定
-            * 素数筛法
-                * 埃氏筛法
-                * 快速线性筛法
+            * 素性测试
+            * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method "prime_sieve_method")
+                * [埃氏筛法]
+                * [快速线性筛法]
+        * 扩展欧几里得算法
 * 计算几何
 
 ## 中英文对照表
@@ -102,10 +103,12 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |数论               |number_theory                          |
 |最大公约数         |greatest_common_divisor(gcd)           |
 |最小公倍数         |least_common_multiple(lcm)             |
-|欧几里得算法       |euclid_algorithm(gcd)                  |
+|欧几里得算法       |Euclid_algorithm(gcd)                  |
 |素数               |prime                                  |
-|素数判定           |prime_determine                        |
+|素性测试           |primality_test                         |
 |素数筛法           |prime_sieve_method                     |
-|埃氏筛法           |eratosthenes                           |
+|埃氏筛法           |Eratosthenes                           |
+|快速线性筛法       |fast_sieve                             |
+|扩展欧几里得算法   |extended_Euclidean_algorithm           |
 |快速幂             |fast_power                             |
 |计算几何           |computational_geometry                 |
