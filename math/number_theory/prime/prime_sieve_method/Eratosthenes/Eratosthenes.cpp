@@ -46,7 +46,7 @@ void InitRead()
 
 void DataProcess()
 {
-    Eratosthenes(n+1);
+    Eratosthenes(n + 1);    //筛[1,n]区间内的素数
     for (int i=0; i<pn; ++i)
     {
         printf("%d%c", primes[i], i == pn - 1 ? '\n' : ' ');    //输出素数表

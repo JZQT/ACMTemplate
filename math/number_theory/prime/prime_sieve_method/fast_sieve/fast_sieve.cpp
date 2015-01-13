@@ -46,7 +46,7 @@ void InitRead()
 
 void DataProcess()
 {
-    FastSieve(n+1);
+    FastSieve(n + 1);   //这是筛[1, n]区间内的素数
     for (int i=0; i<pn; ++i)
     {
         printf("%d%c", primes[i], i == pn - 1 ? '\n' : ' ');
@@ -59,9 +59,10 @@ void FastSieve(int maxn)
     for (int i=2; i<maxn; ++i)
     {
         if (isprime[i]) primes[pn++] = i;
-        for (int j=0; j<pn && i*primes[j]<maxn; ++j)
+        for (int j=0; j<pn; ++j)
         {
-            isprime[i*primes[j]] = false;
+            if (i * primes[j] >= maxn) break;
+            isprime[i * primes[j]] = false;
             if (i % primes[j] == 0) break;
         }
     }
