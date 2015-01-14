@@ -21,7 +21,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
     * [string](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/string "字符串类")
     * [sort](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/sort "快速排序算法")
     * [pair](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/pair "对组")
-    * queue
+    * [queue](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/queue "队列")
     * stack
     * vector
     * priority_queue
