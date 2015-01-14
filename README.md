@@ -27,6 +27,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
     * priority_queue
     * map
     * set
+    * list
 * [数据结构](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure "data_structure")
     * [幷查集](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/union_find_set "union_find_set")
     * [字典树](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/trie "trie")
@@ -67,6 +68,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
                 * [埃氏筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/Eratosthenes "Eratosthenes")
                 * [快速线性筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/fast_sieve "fast_sieve")
             * 素性测试
+            * 分解质因数
         * [扩展欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/exgcd "extended_Euclidean_algorithm")
 * 计算几何
 
@@ -110,11 +112,12 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |最大公约数             |greatest_common_divisor(gcd)           |
 |最小公倍数             |least_common_multiple(lcm)             |
 |欧几里德算法           |Euclid_algorithm(gcd)                  |
-|素数                   |prime                                  |
+|素数(质数)             |prime                                  |
 |素数筛法               |prime_sieve_method                     |
 |埃氏筛法               |Eratosthenes                           |
 |快速线性筛法           |fast_sieve                             |
 |素性测试               |primality_test                         |
+|分解质因数             |(factor)                               |
 |扩展欧几里德算法       |extended_Euclidean_algorithm(exgcd)    |
 |快速幂                 |fast_power                             |
 |计算几何               |computational_geometry                 |
