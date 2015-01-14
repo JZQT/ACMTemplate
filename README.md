@@ -60,14 +60,14 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
     * 网络流
 * [数学](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math "math")
     * [数论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory "number_theory")
-        * [欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/gcd_lcm "Euclid_algorithm")
+        * [欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/gcd "Euclid_algorithm")
         * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/fast_power "fast_power")
         * [素数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime "prime")
             * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method "prime_sieve_method")
                 * [埃氏筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/Eratosthenes "Eratosthenes")
                 * [快速线性筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/fast_sieve "fast_sieve")
             * 素性测试
-        * 扩展欧几里德算法
+        * [扩展欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/exgcd "extended_Euclidean_algorithm")
 * 计算几何
 
 ## 中英文对照表
