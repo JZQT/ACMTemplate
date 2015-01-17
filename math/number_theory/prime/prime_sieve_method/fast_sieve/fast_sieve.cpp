@@ -24,7 +24,7 @@ void InitRead();
 
 void DataProcess();
 
-void FastSieve(int maxn);   //快速线性筛法筛出区间[1,maxn)内的素数表
+void FastSieve(int maxn);   //快速线性筛法筛出区间[1,maxn]内的素数表
 
 int main()
 {
@@ -46,7 +46,7 @@ void InitRead()
 
 void DataProcess()
 {
-    FastSieve(n + 1);   //这是筛[1, n]区间内的素数
+    FastSieve(n);   //这是筛[1,n]区间内的素数
     for (int i=0; i<pn; ++i)
     {
         printf("%d%c", primes[i], i == pn - 1 ? '\n' : ' ');
@@ -56,12 +56,12 @@ void DataProcess()
 
 void FastSieve(int maxn)
 {
-    for (int i=2; i<maxn; ++i)
+    for (int i=2; i<=maxn; ++i)
     {
         if (isprime[i]) primes[pn++] = i;
         for (int j=0; j<pn; ++j)
         {
-            if (i * primes[j] >= maxn) break;
+            if (i * primes[j] > maxn) break;
             isprime[i * primes[j]] = false;
             if (i % primes[j] == 0) break;
         }
