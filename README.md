@@ -50,14 +50,12 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
         * KM算法
     * 最近公共祖先
         * tarjan离线算法
-    * 无向图
-        * [割点与割边](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/undirected_graph/cut "cut")
-            * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/undirected_graph/cut/tarjan "tarjan")
+    * [割点与割边](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/cut "cut")
+        * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/cut/tarjan "tarjan")
         * 双连通分量
             * tarjan算法
-    * [有向图](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph "directed_graph")
-        * [强连通分量](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components "strongly_connected_components")
-            * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/directed_graph/strongly_connected_components/tarjan "tarjan")
+    * [强连通分量](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/strongly_connected_components "strongly_connected_components")
+        * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/strongly_connected_components/tarjan "tarjan")
     * 网络流
 * [数学](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math "math")
     * [数论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory "number_theory")
@@ -67,7 +65,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
             * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method "prime_sieve_method")
                 * [埃氏筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/Eratosthenes "Eratosthenes")
                 * [快速线性筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/fast_sieve "fast_sieve")
-                * [区间筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/interval_sieve "interval_sieve"))
+                * [区间筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/interval_sieve "interval_sieve")
             * 素性测试
             * 分解质因数
         * [扩展欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/exgcd "extended_Euclidean_algorithm")
