@@ -52,8 +52,8 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
         * tarjan离线算法
     * [割点与割边](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/cut "cut")
         * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/cut/tarjan "tarjan")
-        * 双连通分量
-            * tarjan算法
+    * 双连通分量
+        * tarjan算法
     * [强连通分量](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/strongly_connected_components "strongly_connected_components")
         * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/strongly_connected_components/tarjan "tarjan")
     * 网络流
