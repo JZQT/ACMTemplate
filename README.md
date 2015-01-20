@@ -22,7 +22,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
     * [sort](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/sort "快速排序算法")
     * [pair](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/pair "对组")
     * [queue](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/queue "队列")
-    * stack
+    * [stack](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/stack "栈")
     * vector
     * priority_queue
     * map
@@ -62,11 +62,11 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
         * [欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/gcd "Euclid_algorithm")
         * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/fast_power "fast_power")
         * [素数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime "prime")
+            * 素性测试
             * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method "prime_sieve_method")
                 * [埃氏筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/Eratosthenes "Eratosthenes")
                 * [快速线性筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/fast_sieve "fast_sieve")
                 * [区间筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/interval_sieve "interval_sieve")
-            * 素性测试
             * 分解质因数
         * [扩展欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/exgcd "extended_Euclidean_algorithm")
 * 计算几何
