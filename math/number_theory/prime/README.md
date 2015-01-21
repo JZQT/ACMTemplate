@@ -7,19 +7,19 @@
 
 **任何一个合数都能够被分解成质因数(素因数)的乘积。**
 
-关于素数的ACM题一般涉及到两个方面，**素性测试**，**素数筛法**和**分解质因数**。
+关于素数的ACM题一般涉及到以下几个方面
 
 * 素性测试
 
-    当需要判断一个数是否为素数时，需要用到素性测试。
+    用于判断一个数是否为素数。
 
-* [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method "prime_sieve_method")
+* [**素数筛法**](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method "prime_sieve_method")
 
-    如果有许多数需要判断是否为素数或者要得到素数表时，一般使用素数筛法。
+    可以用来获得素数表以及判断多个数是否为素数。
 
 * 分解质因数
 
-    需要分解合数为质因数的乘积时使用。
+    可将合数分解成质因数的乘积。
 
 ## 题集
 

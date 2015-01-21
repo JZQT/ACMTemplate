@@ -33,6 +33,6 @@ int Lcm(int a, int b)
 ## 题集
 |题号                   |备注                       |
 |:----------------------|:--------------------------|
-|[UVaOJ-11827][UVa11827]|需要字符串处理，还可以优化 |
+|[UVaOJ-11827][UVa11827]|需要字符串处理             |
 
 [UVa11827]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2927
