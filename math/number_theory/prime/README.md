@@ -23,21 +23,21 @@
 
 ## 题集
 
-|题号                   |备注                       |
-|:----------------------|:--------------------------|
-|[HDOJ-2136][HDU2136]   |可以一边筛素数一边算出答案 |
-|[POJ-1411][PKU1411]    |不错的题，需要优化         |
-|[POJ-2262][PKU2262]    |基础题，验证哥德巴赫猜想   |
-|[POJ-2689][PKU2689]    |区间筛素数                 |
-|[POJ-2739][PKU2739]    |基础题                     |
-|[POJ-3518][PKU3518]    |基础题，需要打表           |
-|[UVaOJ-10539][UVa10539]|需要思考，不仅仅是筛素数   |
+|题号                   |备注                               |
+|:----------------------|:----------------------------------|
+|[POJ-1411][PKU1411]    |不错的筛素数题，需要优化           |
+|[POJ-2262][PKU2262]    |筛素数基础题，验证哥德巴赫猜想     |
+|[POJ-2689][PKU2689]    |区间筛素数                         |
+|[POJ-2739][PKU2739]    |筛素数水题                         |
+|[POJ-3518][PKU3518]    |筛素数水题，需要打表               |
+|[HDOJ-2136][HDU2136]   |可以一边筛素数一边算出答案         |
+|[UVaOJ-10539][UVa10539]|筛素数好题                         |
 
 
-[HDU2136]:http://acm.hdu.edu.cn/showproblem.php?pid=2136
 [PKU1411]:http://poj.org/problem?id=1411
 [PKU2262]:http://poj.org/problem?id=2262
 [PKU2689]:http://poj.org/problem?id=2689
 [PKU2739]:http://poj.org/problem?id=2739
 [PKU3518]:http://poj.org/problem?id=3518
+[HDU2136]:http://acm.hdu.edu.cn/showproblem.php?pid=2136
 [UVa10539]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1480
