@@ -5,7 +5,8 @@
 // 给一个整数n，求f(n)的值对MOD求模的结果
 // 
 // 数据：
-// n 大小在64位整型范围内
+// n        大小在64位整型范围内
+// MATN     矩阵最大行列数，一般不超过5
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -17,7 +18,7 @@ using namespace std;
 
 typedef long long Long;
 
-const Long MATN = 2;
+const Long MATN = 2;    //矩阵最大行列数
 const Long MOD = 10000;
 
 struct matrix       //矩阵结构体
