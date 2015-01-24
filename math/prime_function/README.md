@@ -1,4 +1,4 @@
-# 素数
+# 素数与函数
 
 ## 概述
 
@@ -14,7 +14,7 @@
 
     用于判断一个数是否为素数。
 
-* [**素数筛法**](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method "prime_sieve_method")
+* [**素数筛法**](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method "prime_sieve_method")
 
     可以用来获得素数表以及判断多个数是否为素数。
 

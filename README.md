@@ -58,17 +58,17 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
         * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/strongly_connected_components/tarjan "tarjan")
     * 网络流
 * [数学](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math "math")
-    * [数论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory "number_theory")
-        * [欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/gcd "Euclid_algorithm")
-        * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/fast_power "fast_power")
-        * [素数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime "prime")
-            * 素性测试
-            * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method "prime_sieve_method")
-                * [埃氏筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/Eratosthenes "Eratosthenes")
-                * [快速线性筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/fast_sieve "fast_sieve")
-                * [区间筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/prime/prime_sieve_method/interval_sieve "interval_sieve")
-            * 分解质因数
-        * [扩展欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/number_theory/exgcd "extended_Euclidean_algorithm")
+    * [整除与剩余](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod "divide and mod")
+        * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/fast_power "fast_power")
+        * [欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/gcd "Euclid_algorithm")
+        * [扩展欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/exgcd "extended_Euclidean_algorithm")
+    * [素数与函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function "prime and function")
+        * 素性测试
+        * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method "prime_sieve_method")
+            * [埃氏筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/Eratosthenes "Eratosthenes")
+            * [快速线性筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/fast_sieve "fast_sieve")
+            * [区间筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/interval_sieve "interval_sieve")
+        * 分解质因数
 * 计算几何
 
 ## 中英文对照表
@@ -107,17 +107,17 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |有向图                 |directed_graph                         |
 |强连通分量             |strongly_connected_components(scc)     |
 |数学                   |math                                   |
-|数论                   |number_theory                          |
+|整除与剩余             |(divide_mod)                           |
+|快速幂                 |fast_power                             |
 |最大公约数             |greatest_common_divisor(gcd)           |
 |最小公倍数             |least_common_multiple(lcm)             |
 |欧几里德算法           |Euclid_algorithm(gcd)                  |
-|素数(质数)             |prime                                  |
+|扩展欧几里德算法       |extended_Euclidean_algorithm(exgcd)    |
+|素数(质数)与函数       |(prime_function)                       |
+|素性测试               |primality_test                         |
 |素数筛法               |prime_sieve_method                     |
 |埃氏筛法               |Eratosthenes                           |
 |快速线性筛法           |fast_sieve                             |
 |区间筛法               |interval_sieve                         |
-|素性测试               |primality_test                         |
 |分解质因数             |(factor)                               |
-|扩展欧几里德算法       |extended_Euclidean_algorithm(exgcd)    |
-|快速幂                 |fast_power                             |
 |计算几何               |computational_geometry                 |
