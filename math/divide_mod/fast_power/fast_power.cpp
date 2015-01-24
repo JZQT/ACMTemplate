@@ -1,19 +1,18 @@
-/* 快速幂取模算法模板
- * 
- * 版本：
- * 快速乘求快速幂
- *
- * 注意：
- * 本算法适用于非负整数
- * 0^0 == 1
- * 
- * 题意：
- * 给三个非负整数x, y, m
- * 输出 x^y % m
- * 
- * 数据：
- * x, y, m 代表三个非负整数，范围不超过long long
- */
+// 快速幂模板
+// 
+// 版本：
+// 快速乘实现快速幂
+//
+// 注意：
+// 本算法适用于非负整数
+// 0^0 == 1
+// 
+// 题意：
+// 给三个非负整数x, y, m
+// 输出 x^y % m
+// 
+// 数据：
+// x, y, m 代表三个非负整数，范围不超过long long
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -21,17 +20,17 @@
 
 using namespace std;
 
-typedef long long LONG;
+typedef long long Long;
 
 //快速乘    求 a*b % mod
-LONG FastMul(LONG a, LONG b, LONG mod);
+Long FastMul(Long a, Long b, Long mod);
 
 //快速幂    求 a^b % mod
-LONG FastPow(LONG a, LONG b, LONG mod);
+Long FastPow(Long a, Long b, Long mod);
 
 int main()
 {
-    LONG x, y, m;
+    Long x, y, m;
     while (~scanf("%lld %lld %lld", &x, &y, &m))
     {
         printf("%lld\n", FastPow(x, y, m));
@@ -39,9 +38,9 @@ int main()
     return 0;
 }
 
-LONG FastMul(LONG a, LONG b, LONG mod)
+Long FastMul(Long a, Long b, Long mod)
 {
-    LONG ans = 0;
+    Long ans = 0;
     a %= mod, b %= mod;
     while (b)
     {
@@ -57,9 +56,9 @@ LONG FastMul(LONG a, LONG b, LONG mod)
     return ans;
 }
 
-LONG FastPow(LONG a, LONG b, LONG mod)
+Long FastPow(Long a, Long b, Long mod)
 {
-    LONG ans = 1;
+    Long ans = 1;
     a %= mod;
     while (b)
     {
