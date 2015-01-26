@@ -14,7 +14,7 @@
 
     用于判断一个数是否为素数。
 
-* [**素数筛法**](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method "prime_sieve_method")
+* [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method "prime_sieve_method")
 
     可以用来获得素数表以及判断多个数是否为素数。
 
@@ -53,8 +53,10 @@
 |[HDOJ-2161][HDU2161]   |水得无话可说                       |
 |[HDOJ-2136][HDU2136]   |筛素数的同时可计算答案             |
 |[UVaOJ-10168][UVa10168]|好题，哥德巴赫猜想的推广           |
+|[UVaOJ-10200][UVa10200]|需要四舍五入，坑                   |
 |[UVaOJ-10539][UVa10539]|筛素数好题                         |
 |[UVaOJ-10791][UVa10791]|好题，分解质因数                   |
+|[UVaOJ-11752][UVa11752]|需要推理                           |
 
 [PKU1142]:http://poj.org/problem?id=1142
 [PKU1411]:http://poj.org/problem?id=1411
@@ -65,5 +67,7 @@
 [HDU2161]:http://acm.hdu.edu.cn/showproblem.php?pid=2161
 [HDU2136]:http://acm.hdu.edu.cn/showproblem.php?pid=2136
 [UVa10168]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1109
+[UVa10200]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1141
 [UVa10539]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1480
 [UVa10791]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=19&page=show_problem&problem=1732
+[UVa11752]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2852

@@ -1,6 +1,7 @@
 # C++标准模板库(Standard Template Library)
 
 ## 概述
+
 > STL = Standard Template Library，标准模板库，惠普实验室开发的一系列软件的统称。
 > 它是由Alexander Stepanov、Meng Lee和David R Musser在惠普实验室工作时所开发出来的。
 > 这可能是一个历史上最令人兴奋的工具的最无聊的术语。
