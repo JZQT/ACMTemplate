@@ -18,9 +18,13 @@
 
     可以用来获得素数表以及判断多个数是否为素数。
 
-* 分解质因数
+* [分解质因数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/factor "factor")
 
     可将合数分解成质因数的乘积。
+
+* [欧拉函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/Euler_function "Euler_function")
+
+    计算不超过n且与n互质的正整数个数。
 
 ## 哥德巴赫猜想
 

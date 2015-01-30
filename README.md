@@ -8,7 +8,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 
 * 文档
 
-    对应的文件夹中的README.md文档，包含算法介绍以及讲解，题集，心得体会以及一些说明等。
+    对应的文件夹中的`README.md`文档，包含算法介绍以及讲解，题集，心得体会以及一些说明等。
 
 * 代码
 
@@ -68,14 +68,15 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 * [数学](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math "math")
     * [整除与剩余](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod "divide and mod")
         * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/fast_power "fast_power")
-        * [欧几里德算法及其扩展](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/gcd "Euclid_algorithm")
+        * [欧几里德算法及其扩展](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/Euclid_algorithm "Euclid_algorithm")
     * [素数与函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function "prime and function")
         * 素性测试
         * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method "prime_sieve_method")
             * [埃氏筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/Eratosthenes "Eratosthenes")
             * [快速线性筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/fast_sieve "fast_sieve")
             * [区间筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/interval_sieve "interval_sieve")
-        * 分解质因数
+        * [分解质因数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/factor "factor")
+        * [欧拉函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/Euler_function "Euler_function")
 * 计算几何
 
 ## 中英文对照表
@@ -129,4 +130,5 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |快速线性筛法           |fast_sieve                             |
 |区间筛法               |interval_sieve                         |
 |分解质因数             |(factor)                               |
+|欧拉函数               |Euler_function                         |
 |计算几何               |computational_geometry                 |
