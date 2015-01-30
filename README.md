@@ -3,6 +3,7 @@
 > Created by JZQT on 2014-11-11.
 
 ## 概述
+
 ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**和**总结**之用。
 
 * 文档
@@ -30,11 +31,11 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
     * [pair](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/pair "对组")
     * [queue](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/queue "队列")
     * [stack](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/stack "栈")
-    * vector
-    * priority_queue
-    * map
-    * set
-    * list
+    * [vector](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/vector "向量")
+    * [priority_queue](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/priority_queue "优先队列")
+    * [map](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/map "映射")
+    * [set](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/set "集合")
+    * [list](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/list "链表")
 * [数据结构](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure "data_structure")
     * [幷查集](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/union_find_set "union_find_set")
     * [字典树](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/trie "trie")
@@ -67,8 +68,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 * [数学](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math "math")
     * [整除与剩余](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod "divide and mod")
         * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/fast_power "fast_power")
-        * [欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/gcd "Euclid_algorithm")
-        * [扩展欧几里德算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/exgcd "extended_Euclidean_algorithm")
+        * [欧几里德算法及其扩展](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/gcd "Euclid_algorithm")
     * [素数与函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function "prime and function")
         * 素性测试
         * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method "prime_sieve_method")
@@ -121,7 +121,8 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |最小公倍数             |least_common_multiple(lcm)             |
 |欧几里德算法           |Euclid_algorithm(gcd)                  |
 |扩展欧几里德算法       |extended_Euclidean_algorithm(exgcd)    |
-|素数(质数)与函数       |(prime_function)                       |
+|素数(质数)             |prime                                  |
+|函数                   |function                               |
 |素性测试               |primality_test                         |
 |素数筛法               |prime_sieve_method                     |
 |埃氏筛法               |Eratosthenes                           |
