@@ -8,7 +8,7 @@
 
 **任何一个合数都能够被分解成质因数(素因数)的乘积。**
 
-关于素数的ACM题一般涉及到以下几个方面
+与素数有关的ACM题一般涉及到以下几个方面
 
 * 素性测试
 
@@ -51,10 +51,12 @@
 |[POJ-1142][PKU1142]    |分解质因数，要注意细节问题         |
 |[POJ-1411][PKU1411]    |不错的筛素数题，需要优化           |
 |[POJ-2262][PKU2262]    |筛素数基础题，验证哥德巴赫猜想     |
+|[POJ-2407][PKU2407]    |欧拉函数基础题                     |
 |[POJ-2689][PKU2689]    |区间筛素数                         |
 |[POJ-2739][PKU2739]    |筛素数基础题                       |
 |[POJ-3090][PKU3090]    |欧拉函数基础题                     |
 |[POJ-3518][PKU3518]    |筛素数基础题，需要打表             |
+|[HDOJ-1787][HDU1787]   |欧拉函数基础题                     |
 |[HDOJ-2161][HDU2161]   |水得无话可说                       |
 |[HDOJ-2136][HDU2136]   |筛素数的同时可计算答案             |
 |[UVaOJ-10168][UVa10168]|好题，哥德巴赫猜想的推广           |
@@ -66,10 +68,12 @@
 [PKU1142]:http://poj.org/problem?id=1142
 [PKU1411]:http://poj.org/problem?id=1411
 [PKU2262]:http://poj.org/problem?id=2262
+[PKU2407]:http://poj.org/problem?id=2407 
 [PKU2689]:http://poj.org/problem?id=2689
 [PKU2739]:http://poj.org/problem?id=2739
 [PKU3090]:http://poj.org/problem?id=3090
 [PKU3518]:http://poj.org/problem?id=3518
+[HDU1787]:http://acm.hdu.edu.cn/showproblem.php?pid=1787
 [HDU2161]:http://acm.hdu.edu.cn/showproblem.php?pid=2161
 [HDU2136]:http://acm.hdu.edu.cn/showproblem.php?pid=2136
 [UVa10168]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1109
