@@ -100,14 +100,12 @@
                 isprime[i * primes[j]] = false;
                 if (i % primes[j] == 0)
                 {
-                    phi[i * primes[j]] = phi[i] * primes[j];
+                    phi[i * primes[j]] = phi[i] * primes[j];    //欧拉函数递推式
                     break;
                 }
-                else
-                {
-                    phi[i * primes[j]] = phi[i] * (primes[j] - 1);
-                }
+                phi[i * primes[j]] = phi[i] * (primes[j] - 1);  //欧拉函数递推式
             }
         }
+        return;
     }
     ```
