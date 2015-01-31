@@ -52,8 +52,9 @@
 |[POJ-1411][PKU1411]    |不错的筛素数题，需要优化           |
 |[POJ-2262][PKU2262]    |筛素数基础题，验证哥德巴赫猜想     |
 |[POJ-2689][PKU2689]    |区间筛素数                         |
-|[POJ-2739][PKU2739]    |筛素数水题                         |
-|[POJ-3518][PKU3518]    |筛素数水题，需要打表               |
+|[POJ-2739][PKU2739]    |筛素数基础题                       |
+|[POJ-3090][PKU3090]    |欧拉函数基础题                     |
+|[POJ-3518][PKU3518]    |筛素数基础题，需要打表             |
 |[HDOJ-2161][HDU2161]   |水得无话可说                       |
 |[HDOJ-2136][HDU2136]   |筛素数的同时可计算答案             |
 |[UVaOJ-10168][UVa10168]|好题，哥德巴赫猜想的推广           |
@@ -67,6 +68,7 @@
 [PKU2262]:http://poj.org/problem?id=2262
 [PKU2689]:http://poj.org/problem?id=2689
 [PKU2739]:http://poj.org/problem?id=2739
+[PKU3090]:http://poj.org/problem?id=3090
 [PKU3518]:http://poj.org/problem?id=3518
 [HDU2161]:http://acm.hdu.edu.cn/showproblem.php?pid=2161
 [HDU2136]:http://acm.hdu.edu.cn/showproblem.php?pid=2136

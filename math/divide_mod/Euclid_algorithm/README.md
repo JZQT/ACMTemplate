@@ -43,13 +43,3 @@ int Lcm(int a, int b)
 这里给出这样一个基本的事实：**如果给予两个整数a、b，那么必然存在整数x、y使得`ax + by = gcd(a,b)`。**
 
 **原理**：有两个数a和b，对它们进行辗转相除法，可以得到它们的最大公约数。收集辗转相除法中产生的式子，倒回去，就可以得到`ax + by = gcd(a,b)`的整数解了。
-
-
-## 题集
-|题号                   |备注                               |
-|:----------------------|:----------------------------------|
-|[POJ-1061][PKU1061]    |扩展欧几里德                       |
-|[UVaOJ-11827][UVa11827]|需要字符串处理                     |
-
-[PKU1061]:http://poj.org/problem?id=1061
-[UVa11827]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2927
