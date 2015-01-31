@@ -1,15 +1,14 @@
-/* 欧几里得算法模板
- *
- * 注意：
- * 本算法适用于正整数
- *
- * 题意：
- * 给两个正整数
- * 输出这两个正整数的最大公约数及最小公倍数
- * 
- * 数据：
- * x, y 代表两个正整数，范围不超过long long
- */
+// 欧几里得算法模板
+//
+// 注意：
+// 本算法适用于正整数
+//
+// 题意：
+// 给两个正整数
+// 输出这两个正整数的最大公约数及最小公倍数
+// 
+// 数据：
+// x, y 代表两个正整数，范围不超过long long
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -40,5 +39,5 @@ Long Gcd(Long a, Long b)
 
 Long Lcm(Long a, Long b)
 {
-    return a / Gcd(a, b) * b;   //先乘再除可能导致类型范围溢出
+    return a / Gcd(a, b) * b;   //先除再乘避免类型范围溢出
 }
