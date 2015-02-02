@@ -46,7 +46,7 @@ void InitRead()
 
 void DataProcess()
 {
-    Eratosthenes(n);        //筛[1,n]区间内的素数
+    Eratosthenes(n);
     for (int i=0; i<pn; ++i)
     {
         printf("%d%c", primes[i], i == pn - 1 ? '\n' : ' ');    //输出素数表
@@ -60,7 +60,7 @@ void Eratosthenes(int maxn)
     {
         if (!isprime[i]) continue;      //筛出素数
         primes[pn++] = i;               //加入素数表
-        for (int j=2*i; j<=maxn; j+=i)  //标记该素数的倍数为合数
+        for (int j=i+i; j<=maxn; j+=i)  //标记该素数的倍数为合数
         {
             isprime[j] = false;
         }
