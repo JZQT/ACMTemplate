@@ -41,7 +41,8 @@ int main()
 Long FastMul(Long a, Long b, Long mod)
 {
     Long ans = 0;
-    a %= mod, b %= mod;
+    a %= mod;
+    b %= mod;
     while (b)
     {
         if (b & 1)
@@ -63,8 +64,8 @@ Long FastPow(Long a, Long b, Long mod)
     while (b)
     {
         if (b & 1) ans = FastMul(ans, a, mod);
-        b >>= 1;
         a = FastMul(a, a, mod);
+        b >>= 1;
     }
     return ans;
 }
