@@ -32,9 +32,17 @@
 
 > 任何一个大于1的自然数N，都可以唯一分解成有限个质数的乘积
 >
-> N = P1^a1 * P2^a2 * P3^a3 * ··· * Pn^an
+> ![唯一分解定理_1](http://7rfk4x.com1.z0.glb.clouddn.com/Unique_Decomposition_Theorem_1.jpg)
 >
-> 这里 P1 < P2 < ··· < Pn 均为质数，而 a1, a2, ···, an 都是正整数。
+> 这里![唯一分解定理_2](http://7rfk4x.com1.z0.glb.clouddn.com/Unique_Decomposition_Theorem_2.jpg) 且均为质数，而 a1, a2, ···, an 都是正整数。
+
+对于唯一分解定理有以下推论及应用
+
+* 对于一个大于1的自然数N，它的正因子个数为![唯一分解定理_3](http://7rfk4x.com1.z0.glb.clouddn.com/Unique_Decomposition_Theorem_3.jpg) 。
+* 对于一个大于1的自然数N，它的全体正因数之和为![唯一分解定理_4](http://7rfk4x.com1.z0.glb.clouddn.com/Unique_Decomposition_Theorem_4.jpg)。
+* 利用唯一分解定理可以重新定义整数`a`和`b`的最大公约数`Gcd(a,b)`和最小公倍数`Lcm(a,b)`并且证明`a * b = Gcd(a,b) * Lcm(a,b)`。
+* 可证明根号2是无理数
+* 可证明素数个数无限
 
 ## 素数定理
 

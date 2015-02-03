@@ -8,7 +8,7 @@
 
 埃氏筛法的**思想**是**要得到自然数N以内的全部素数，必须将不大于根号N的所有素数的倍数剔除，剩下的就是素数**。
 
-![埃氏筛法gif图](http://jzqt.esy.es/wp-content/uploads/Sieve_of_Eratosthenes_animation.gif)
+![埃氏筛法gif图](http://7rfk4x.com1.z0.glb.clouddn.com/Sieve_of_Eratosthenes_animation.gif)
 
 ## 实现
 
