@@ -95,6 +95,8 @@
 |[POJ-2739][PKU2739]    |筛素数基础题                       |
 |[POJ-3090][PKU3090]    |欧拉函数基础题                     |
 |[POJ-3518][PKU3518]    |筛素数基础题，需要打表             |
+|[HDOJ-1299][HDU1299]   |好题，唯一分解定理                 |
+|[HDOJ-1492][HDU1492]   |唯一分解定理基础题                 |
 |[HDOJ-1787][HDU1787]   |欧拉函数基础题                     |
 |[HDOJ-2161][HDU2161]   |水得无话可说                       |
 |[HDOJ-2136][HDU2136]   |筛素数的同时可计算答案             |
@@ -112,6 +114,8 @@
 [PKU2739]:http://poj.org/problem?id=2739
 [PKU3090]:http://poj.org/problem?id=3090
 [PKU3518]:http://poj.org/problem?id=3518
+[HDU1299]:http://acm.hdu.edu.cn/showproblem.php?pid=1299
+[HDU1492]:http://acm.hdu.edu.cn/showproblem.php?pid=1492
 [HDU1787]:http://acm.hdu.edu.cn/showproblem.php?pid=1787
 [HDU2161]:http://acm.hdu.edu.cn/showproblem.php?pid=2161
 [HDU2136]:http://acm.hdu.edu.cn/showproblem.php?pid=2136

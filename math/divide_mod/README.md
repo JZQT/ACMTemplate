@@ -9,6 +9,7 @@
 |[POJ-3070][PKU3070]    |水题，矩阵快速幂                   |
 |[HDOJ-1905][HDU1905]   |快速幂和判断素数                   |
 |[HDOJ-1920][HDU1920]   |多个数LCM                          |
+|[HDOJ-5019][HDU5019]   |求k大GCD                           |
 |[UVaOJ-11827][UVa11827]|求GCD，需要字符串处理              |
 
 [PKU1061]:http://poj.org/problem?id=1061
@@ -16,4 +17,5 @@
 [PKU3070]:http://poj.org/problem?id=3070
 [HDU1905]:http://acm.hdu.edu.cn/showproblem.php?pid=1905
 [HDU1920]:http://acm.hdu.edu.cn/showproblem.php?pid=1920
+[HDU5019]:http://acm.hdu.edu.cn/showproblem.php?pid=5019
 [UVa11827]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2927

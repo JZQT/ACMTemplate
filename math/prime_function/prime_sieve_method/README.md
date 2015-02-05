@@ -20,4 +20,4 @@ ACM竞赛中常用的素数筛法有三种
 
 * [区间筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/interval_sieve "interval_sieve")
 
-    用来筛区间范围小但是区间端点值大的区间内素数。
+    最常见的是筛整型范围内100W大小的区间内素数。
