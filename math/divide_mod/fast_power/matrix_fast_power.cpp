@@ -25,7 +25,7 @@ struct matrix       //矩阵结构体
 {
     Long n, m;               //矩阵大小
     Long mat[MATN][MATN];
-    matrix(void): n(0), m(0) {}
+    matrix(): n(0), m(0) {}
     matrix(Long _n, Long _m): n(_n), m(_m)
     {
         memset(mat, 0, sizeof(mat));
@@ -102,11 +102,11 @@ matrix MatrixFastPow(matrix base, Long n, Long mod)
 {
     matrix ans;
     ans.Unit(base.n);
-    while (n != 0)
+    while (n)
     {
         if (n & 1) ans = MulMod(ans, base, mod);
-        n >>= 1;
         base = MulMod(base, base, mod);
+        n >>= 1;
     }
     return ans;
 }
