@@ -69,6 +69,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
     * [整除与剩余](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod "divide and mod")
         * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/fast_power "fast_power")
         * [欧几里德算法及其扩展](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/Euclid_algorithm "Euclid_algorithm")
+        * 乘法逆元
     * [素数与函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function "prime and function")
         * 素性测试
         * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method "prime_sieve_method")
@@ -122,6 +123,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |最小公倍数             |least_common_multiple(lcm)             |
 |欧几里德算法           |Euclid_algorithm(gcd)                  |
 |扩展欧几里德算法       |extended_Euclidean_algorithm(exgcd)    |
+|乘法逆元               |multiplicative_inverse(inverse)        |
 |素数(质数)             |prime                                  |
 |函数                   |function                               |
 |素性测试               |primality_test                         |

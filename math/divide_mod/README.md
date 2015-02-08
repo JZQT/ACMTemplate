@@ -1,5 +1,19 @@
 # 整除与剩余
 
+## 剩余系与模运算
+
+**剩余系**指的是**对于某个特定的正整数n，一个整数集中所有数模n所得的余数域**。
+
+如果一个剩余系中包含了模n情况下所有可能的余数，那么这个剩余系就被称之为是模n的一个**完全剩余系**。
+一般来说，模n的完全剩余系就是{0, 1, 2, ···, n-1}。
+
+**简化剩余系**(**缩系**)是完全剩余系中与n互素的元素。比如当n为12时，缩系就是{1, 5, 7, 11}。
+
+在这里，我们将模n的完全剩余系记作Zn，缩系记作Zn*。
+
+Zn中的每一个元素都代表所有与它同余的整数。比如在Z5中，1代表{1, 6, 11, ···}等所有模5余数为1的数。
+Zn中所有整数都代表一个同余等价类，因此**Zn下的运算都称之为模运算**，比如Z5下的模加法`1 + 4 = 0`，模乘法`3 × 4 = 2`。
+
 ## 求模运算与求余运算
 
 **求模运算**(modulo)与**求余运算**(remain)是不同的。
@@ -54,6 +68,7 @@
 [PKU1061]:http://poj.org/problem?id=1061
 [PKU1995]:http://poj.org/problem?id=1995
 [PKU3070]:http://poj.org/problem?id=3070
+[HDU1395]:http://acm.hdu.edu.cn/showproblem.php?pid=1395
 [HDU1905]:http://acm.hdu.edu.cn/showproblem.php?pid=1905
 [HDU1920]:http://acm.hdu.edu.cn/showproblem.php?pid=1920
 [HDU4965]:http://acm.hdu.edu.cn/showproblem.php?pid=4965
