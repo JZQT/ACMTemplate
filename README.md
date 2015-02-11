@@ -69,7 +69,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
     * [整除与剩余](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod "divide and mod")
         * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/fast_power "fast_power")
         * [欧几里德算法及其扩展](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/Euclid_algorithm "Euclid_algorithm")
-        * 乘法逆元
+        * [乘法逆元](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/inverse "inverse")
     * [素数与函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function "prime and function")
         * 素性测试
         * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method "prime_sieve_method")
