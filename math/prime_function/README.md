@@ -101,6 +101,7 @@
 |[HDOJ-1787][HDU1787]   |欧拉函数基础题                     |
 |[HDOJ-2161][HDU2161]   |水得无话可说                       |
 |[HDOJ-2136][HDU2136]   |筛素数的同时可计算答案             |
+|[HDOJ-2608][HDU2608]   |好题，唯一分解定理应用，推理       |
 |[UVaOJ-10168][UVa10168]|好题，哥德巴赫猜想的推广           |
 |[UVaOJ-10200][UVa10200]|需要四舍五入，坑                   |
 |[UVaOJ-10539][UVa10539]|筛素数好题                         |
@@ -121,6 +122,7 @@
 [HDU1787]:http://acm.hdu.edu.cn/showproblem.php?pid=1787
 [HDU2161]:http://acm.hdu.edu.cn/showproblem.php?pid=2161
 [HDU2136]:http://acm.hdu.edu.cn/showproblem.php?pid=2136
+[HDU2608]:http://acm.hdu.edu.cn/showproblem.php?pid=2608
 [UVa10168]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1109
 [UVa10200]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1141
 [UVa10539]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1480

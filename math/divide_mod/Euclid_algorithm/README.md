@@ -54,7 +54,7 @@ int Lcm(int a, int b)
 ```cpp
 int ExGcd(int a, int b, int &x, int &y)             //有返回值版本，返回gcd(a,b)
 {
-    if (b == 0)
+    if (!b)
     {
         x = 1; y = 0;
         return a;
