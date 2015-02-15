@@ -36,6 +36,9 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
     * [map](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/map "映射")
     * [set](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/set "集合")
     * [list](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/list "链表")
+* [基础知识](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/basic "basic")
+    * 二进制
+    * [位运算](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/basic/bit_operation "bit_operation")
 * [数据结构](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure "data_structure")
     * [幷查集](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/union_find_set "union_find_set")
     * [字典树](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/trie "trie")
@@ -86,6 +89,9 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 
 |中文                   |English                                |
 |:----------------------|:--------------------------------------|
+|基础知识               |(basic)                                |
+|二进制                 |binary_system                          |
+|位运算                 |bit_operation                          |
 |标准库                 |standard_library(SL)                   |
 |标准模板库             |standard_template_library(STL)         |
 |数据结构               |data_structure                         |
