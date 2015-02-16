@@ -81,6 +81,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
             * [区间筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/interval_sieve "interval_sieve")
         * [分解质因数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/factor "factor")
         * [欧拉函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/Euler_function "Euler_function")
+    * 组合数学
 * 计算几何
 
 ## 中英文对照表
@@ -139,4 +140,5 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |区间筛法               |interval_sieve                         |
 |分解质因数             |(factor)                               |
 |欧拉函数               |Euler_function                         |
+|组合数学               |combinatorics                          |
 |计算几何               |computational_geometry                 |
