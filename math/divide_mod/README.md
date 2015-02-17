@@ -81,20 +81,22 @@ Zn中所有整数都代表一个同余等价类，因此**Zn下的运算都称�
 |[POJ-1995][PKU1995]    |快速幂基础题                       |
 |[POJ-3070][PKU3070]    |矩阵快速幂基础题                   |
 |[HDOJ-1395][HDU1395]   |欧拉定理                           |
+|[HDOJ-1420][HDU1420]   |快速幂基础题                       |
 |[HDOJ-1576][HDU1576]   |乘法逆元基础题                     |
 |[HDOJ-1905][HDU1905]   |快速幂和判断素数                   |
 |[HDOJ-1920][HDU1920]   |多个数LCM                          |
-|[HDOJ-4965][HDU4965]   |好题，矩阵快速幂                   |
+|[HDOJ-4965][HDU4965]   |好题，矩阵快速幂，需要仔细思考优化 |
 |[HDOJ-5019][HDU5019]   |求k大GCD                           |
 |[UVaOJ-11827][UVa11827]|求GCD，需要字符串处理              |
 
 [PKU1061]:http://poj.org/problem?id=1061
 [PKU1995]:http://poj.org/problem?id=1995
 [PKU3070]:http://poj.org/problem?id=3070
-[HDU1395]:http://acm.hdu.edu.cn/showproblem.php?pid=1395
-[HDU1576]:http://acm.hdu.edu.cn/showproblem.php?pid=1576
-[HDU1905]:http://acm.hdu.edu.cn/showproblem.php?pid=1905
-[HDU1920]:http://acm.hdu.edu.cn/showproblem.php?pid=1920
-[HDU4965]:http://acm.hdu.edu.cn/showproblem.php?pid=4965
-[HDU5019]:http://acm.hdu.edu.cn/showproblem.php?pid=5019
+[HDU1395]:http://acm.hdu.edu.cn/showproblem.php?pid=1395 "2^x mod n = 1"
+[HDU1420]:http://acm.hdu.edu.cn/showproblem.php?pid=1420 "Prepared for New Acmer"
+[HDU1576]:http://acm.hdu.edu.cn/showproblem.php?pid=1576 "A/B"
+[HDU1905]:http://acm.hdu.edu.cn/showproblem.php?pid=1905 "Pseudoprime numbers"
+[HDU1920]:http://acm.hdu.edu.cn/showproblem.php?pid=1920 "Jackpot"
+[HDU4965]:http://acm.hdu.edu.cn/showproblem.php?pid=4965 "Fast Matrix Calculation"
+[HDU5019]:http://acm.hdu.edu.cn/showproblem.php?pid=5019 "Revenge of GCD"
 [UVa11827]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2927

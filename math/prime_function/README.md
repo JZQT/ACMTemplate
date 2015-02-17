@@ -96,11 +96,13 @@
 |[POJ-2739][PKU2739]    |筛素数基础题                       |
 |[POJ-3090][PKU3090]    |欧拉函数基础题                     |
 |[POJ-3518][PKU3518]    |筛素数基础题，需要打表             |
+|[HDOJ-1164][HDU1164]   |分解质因数基础题                   |
 |[HDOJ-1299][HDU1299]   |好题，唯一分解定理                 |
+|[HDOJ-1397][HDU1397]   |哥德巴赫猜想水题                   |
 |[HDOJ-1492][HDU1492]   |唯一分解定理基础题                 |
 |[HDOJ-1787][HDU1787]   |欧拉函数基础题                     |
-|[HDOJ-2161][HDU2161]   |水得无话可说                       |
 |[HDOJ-2136][HDU2136]   |筛素数的同时可计算答案             |
+|[HDOJ-2161][HDU2161]   |水得无话可说                       |
 |[HDOJ-2608][HDU2608]   |好题，唯一分解定理应用，推理       |
 |[UVaOJ-10168][UVa10168]|好题，哥德巴赫猜想的推广           |
 |[UVaOJ-10200][UVa10200]|需要四舍五入，坑                   |
@@ -108,21 +110,23 @@
 |[UVaOJ-10791][UVa10791]|好题，分解质因数                   |
 |[UVaOJ-11752][UVa11752]|需要推理                           |
 
-[PKU1142]:http://poj.org/problem?id=1142
-[PKU1365]:http://poj.org/problem?id=1365
-[PKU1411]:http://poj.org/problem?id=1411
-[PKU2262]:http://poj.org/problem?id=2262
-[PKU2407]:http://poj.org/problem?id=2407 
-[PKU2689]:http://poj.org/problem?id=2689
-[PKU2739]:http://poj.org/problem?id=2739
-[PKU3090]:http://poj.org/problem?id=3090
-[PKU3518]:http://poj.org/problem?id=3518
-[HDU1299]:http://acm.hdu.edu.cn/showproblem.php?pid=1299
-[HDU1492]:http://acm.hdu.edu.cn/showproblem.php?pid=1492
-[HDU1787]:http://acm.hdu.edu.cn/showproblem.php?pid=1787
-[HDU2161]:http://acm.hdu.edu.cn/showproblem.php?pid=2161
-[HDU2136]:http://acm.hdu.edu.cn/showproblem.php?pid=2136
-[HDU2608]:http://acm.hdu.edu.cn/showproblem.php?pid=2608
+[PKU1142]:http://poj.org/problem?id=1142 ""
+[PKU1365]:http://poj.org/problem?id=1365 ""
+[PKU1411]:http://poj.org/problem?id=1411 ""
+[PKU2262]:http://poj.org/problem?id=2262 "Goldbach's Conjecture"
+[PKU2407]:http://poj.org/problem?id=2407 "" 
+[PKU2689]:http://poj.org/problem?id=2689 ""
+[PKU2739]:http://poj.org/problem?id=2739 ""
+[PKU3090]:http://poj.org/problem?id=3090 ""
+[PKU3518]:http://poj.org/problem?id=3518 ""
+[HDU1164]:http://acm.hdu.edu.cn/showproblem.php?pid=1164 "Eddy's research I"
+[HDU1299]:http://acm.hdu.edu.cn/showproblem.php?pid=1299 "Diophantus of Alexandria"
+[HDU1397]:http://acm.hdu.edu.cn/showproblem.php?pid=1397 "Goldbach's Conjecture"
+[HDU1492]:http://acm.hdu.edu.cn/showproblem.php?pid=1492 "The number of divisors(约数) about Humble Numbers"
+[HDU1787]:http://acm.hdu.edu.cn/showproblem.php?pid=1787 "GCD Again"
+[HDU2136]:http://acm.hdu.edu.cn/showproblem.php?pid=2136 "Largest prime factor"
+[HDU2161]:http://acm.hdu.edu.cn/showproblem.php?pid=2161 "Primes"
+[HDU2608]:http://acm.hdu.edu.cn/showproblem.php?pid=2608 "0 or 1"
 [UVa10168]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1109
 [UVa10200]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1141
 [UVa10539]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1480
