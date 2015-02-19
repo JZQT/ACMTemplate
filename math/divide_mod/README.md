@@ -83,6 +83,7 @@ Zn中所有整数都代表一个同余等价类，因此**Zn下的运算都称�
 |[HDOJ-1395][HDU1395]   |欧拉定理                           |
 |[HDOJ-1420][HDU1420]   |快速幂基础题                       |
 |[HDOJ-1576][HDU1576]   |乘法逆元基础题                     |
+|[HDOJ-1577][HDU1577]   |GCD基础题                          |
 |[HDOJ-1905][HDU1905]   |快速幂和判断素数                   |
 |[HDOJ-1920][HDU1920]   |多个数LCM                          |
 |[HDOJ-4965][HDU4965]   |好题，矩阵快速幂，需要仔细思考优化 |
@@ -95,6 +96,7 @@ Zn中所有整数都代表一个同余等价类，因此**Zn下的运算都称�
 [HDU1395]:http://acm.hdu.edu.cn/showproblem.php?pid=1395 "2^x mod n = 1"
 [HDU1420]:http://acm.hdu.edu.cn/showproblem.php?pid=1420 "Prepared for New Acmer"
 [HDU1576]:http://acm.hdu.edu.cn/showproblem.php?pid=1576 "A/B"
+[HDU1577]:http://acm.hdu.edu.cn/showproblem.php?pid=1577 "WisKey的眼神"
 [HDU1905]:http://acm.hdu.edu.cn/showproblem.php?pid=1905 "Pseudoprime numbers"
 [HDU1920]:http://acm.hdu.edu.cn/showproblem.php?pid=1920 "Jackpot"
 [HDU4965]:http://acm.hdu.edu.cn/showproblem.php?pid=4965 "Fast Matrix Calculation"
