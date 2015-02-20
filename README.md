@@ -38,25 +38,25 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
     * [list](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/C++STL/list "链表")
 * [基础知识](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/basic "basic")
     * 二进制
-    * [位运算](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/basic/bit_operation "bit_operation")
+    * [位运算](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/basic/bit_operation "bit operation")
 * [数据结构](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure "data_structure")
-    * [幷查集](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/union_find_set "union_find_set")
+    * [幷查集](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/union_find_set "union find set")
     * [字典树](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/data_structure/trie "trie")
     * 树状数组
     * 线段树
-* [图论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory "graph_theory")
-    * [存图方式](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph "save_graph")
-        * [邻接矩阵](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/mat "adjacency_matrix(mat)")
+* [图论](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory "graph theory")
+    * [存图方式](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph "save graph")
+        * [邻接矩阵](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/mat "adjacency matrix(mat)")
         * [vector邻接表](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/vec "vector(vec)")
         * [链式前向星](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/save_graph/qxx "(qxx)")
     * 最小生成树
         * kruskal算法
         * prim算法
-    * [最短路](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/shortest_path "shortest_path")
+    * [最短路](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/shortest_path "shortest path")
         * [dijkstra算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/shortest_path/dijkstra "dijkstra")
         * SPFA算法
         * floyd算法
-    * [二分图](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/bipartite_graph "bipartite_graph")
+    * [二分图](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/bipartite_graph "bipartite graph")
         * [匈牙利算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/bipartite_graph/hungary "hungary")
         * KM算法
     * 最近公共祖先
@@ -65,22 +65,23 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
         * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/cut/tarjan "tarjan")
     * 双连通分量
         * tarjan算法
-    * [强连通分量](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/strongly_connected_components "strongly_connected_components")
+    * [强连通分量](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/strongly_connected_components "strongly connected components")
         * [tarjan算法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/graph_theory/strongly_connected_components/tarjan "tarjan")
     * 网络流
 * [数学](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math "math")
     * [整除与剩余](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod "divide and mod")
-        * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/fast_power "fast_power")
-        * [欧几里德算法及其扩展](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/Euclid_algorithm "Euclid_algorithm")
+        * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/fast_power "fast power")
+        * [欧几里德算法及其扩展](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/Euclid algorithm "Euclid algorithm")
         * [乘法逆元](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/inverse "inverse")
+        * [原根](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/primitive_root "primitive root")
     * [素数与函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function "prime and function")
         * 素性测试
         * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method "prime_sieve_method")
             * [埃氏筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/Eratosthenes "Eratosthenes")
-            * [快速线性筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/fast_sieve "fast_sieve")
-            * [区间筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/interval_sieve "interval_sieve")
+            * [快速线性筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/fast_sieve "fast sieve")
+            * [区间筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/interval_sieve "interval sieve")
         * [分解质因数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/factor "factor")
-        * [欧拉函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/Euler_function "Euler_function")
+        * [欧拉函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/Euler_function "Euler function")
     * 组合数学
 * 计算几何
 
@@ -131,6 +132,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |欧几里德算法           |Euclid_algorithm(gcd)                  |
 |扩展欧几里德算法       |extended_Euclidean_algorithm(exgcd)    |
 |乘法逆元               |multiplicative_inverse(inverse)        |
+|原根                   |primitive_root                         |
 |素数(质数)             |prime                                  |
 |函数                   |function                               |
 |素性测试               |primality_test                         |

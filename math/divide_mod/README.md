@@ -78,6 +78,7 @@ Zn中所有整数都代表一个同余等价类，因此**Zn下的运算都称�
 |题号                   |备注                               |
 |:----------------------|:----------------------------------|
 |[POJ-1061][PKU1061]    |扩展欧几里德                       |
+|[POJ-1284][PKU1284]    |求原根个数                         |
 |[POJ-1995][PKU1995]    |快速幂基础题                       |
 |[POJ-3070][PKU3070]    |矩阵快速幂基础题                   |
 |[HDOJ-1395][HDU1395]   |欧拉定理                           |
@@ -91,6 +92,7 @@ Zn中所有整数都代表一个同余等价类，因此**Zn下的运算都称�
 |[UVaOJ-11827][UVa11827]|求GCD，需要字符串处理              |
 
 [PKU1061]:http://poj.org/problem?id=1061
+[PKU1284]:http://poj.org/problem?id=1284 "Primitive Roots"
 [PKU1995]:http://poj.org/problem?id=1995
 [PKU3070]:http://poj.org/problem?id=3070
 [HDU1395]:http://acm.hdu.edu.cn/showproblem.php?pid=1395 "2^x mod n = 1"
