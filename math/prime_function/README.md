@@ -92,6 +92,7 @@
 |[POJ-1411][PKU1411]    |不错的筛素数题，需要优化           |
 |[POJ-2262][PKU2262]    |筛素数基础题，验证哥德巴赫猜想     |
 |[POJ-2407][PKU2407]    |欧拉函数基础题                     |
+|[POJ-2478][PKU2478]    |欧拉函数基础题                     |
 |[POJ-2689][PKU2689]    |区间筛素数                         |
 |[POJ-2739][PKU2739]    |筛素数基础题                       |
 |[POJ-3090][PKU3090]    |欧拉函数基础题                     |
@@ -110,15 +111,16 @@
 |[UVaOJ-10791][UVa10791]|好题，分解质因数                   |
 |[UVaOJ-11752][UVa11752]|需要推理                           |
 
-[PKU1142]:http://poj.org/problem?id=1142 ""
-[PKU1365]:http://poj.org/problem?id=1365 ""
-[PKU1411]:http://poj.org/problem?id=1411 ""
+[PKU1142]:http://poj.org/problem?id=1142 "Smith Numbers"
+[PKU1365]:http://poj.org/problem?id=1365 "Prime Land"
+[PKU1411]:http://poj.org/problem?id=1411 "Calling Extraterrestrial Intelligence Again"
 [PKU2262]:http://poj.org/problem?id=2262 "Goldbach's Conjecture"
-[PKU2407]:http://poj.org/problem?id=2407 "" 
-[PKU2689]:http://poj.org/problem?id=2689 ""
-[PKU2739]:http://poj.org/problem?id=2739 ""
-[PKU3090]:http://poj.org/problem?id=3090 ""
-[PKU3518]:http://poj.org/problem?id=3518 ""
+[PKU2407]:http://poj.org/problem?id=2407 "Relatives"
+[PKU2478]:http://poj.org/problem?id=2478 "Farey Sequence"
+[PKU2689]:http://poj.org/problem?id=2689 "Prime Distance"
+[PKU2739]:http://poj.org/problem?id=2739 "Sum of Consecutive Prime Numbers"
+[PKU3090]:http://poj.org/problem?id=3090 "Visible Lattice Points"
+[PKU3518]:http://poj.org/problem?id=3518 "Prime Gap"
 [HDU1164]:http://acm.hdu.edu.cn/showproblem.php?pid=1164 "Eddy's research I"
 [HDU1299]:http://acm.hdu.edu.cn/showproblem.php?pid=1299 "Diophantus of Alexandria"
 [HDU1397]:http://acm.hdu.edu.cn/showproblem.php?pid=1397 "Goldbach's Conjecture"
