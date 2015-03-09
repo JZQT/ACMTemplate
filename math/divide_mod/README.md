@@ -117,7 +117,7 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 
     $$a^b \equiv a^{b\ mod\ \varphi(m)}(mod\ m)$$
 
-* 如果$a$和$m$都是正整数且$a$与$m$互质$(m>1)$，必有正整数$x$使得$a^x \equiv 1(mod m)$，且满足该等式的最小正整数$x_0$必能整除$\varphi(m)$，即$x_0 \mid \varphi(m)$
+* 如果$a$和$m$都是正整数且$a$与$m$互质$(m>1)$，必有正整数$x$使得$a^x \equiv 1(mod\ m)$，且满足该等式的最小正整数$x_0$必能整除$\varphi(m)$，即$x_0 \mid \varphi(m)$
 
 ## 费马小定理
 
@@ -135,6 +135,7 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 |[POJ-1284][PKU1284]    |求原根个数                         |
 |[POJ-1995][PKU1995]    |快速幂基础题                       |
 |[POJ-3070][PKU3070]    |矩阵快速幂基础题                   |
+|[POJ-3358][PKU3358]    |好题，欧拉定理                     |
 |[HDOJ-1395][HDU1395]   |欧拉定理                           |
 |[HDOJ-1420][HDU1420]   |快速幂基础题                       |
 |[HDOJ-1576][HDU1576]   |乘法逆元基础题                     |
@@ -149,6 +150,7 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 [PKU1284]:http://poj.org/problem?id=1284 "Primitive Roots"
 [PKU1995]:http://poj.org/problem?id=1995 "Raising Modulo Numbers"
 [PKU3070]:http://poj.org/problem?id=3070 "Fibonacci"
+[PKU3358]:http://poj.org/problem?id=3358 "Period of an Infinite Binary Expansion"
 [HDU1395]:http://acm.hdu.edu.cn/showproblem.php?pid=1395 "2^x mod n = 1"
 [HDU1420]:http://acm.hdu.edu.cn/showproblem.php?pid=1420 "Prepared for New Acmer"
 [HDU1576]:http://acm.hdu.edu.cn/showproblem.php?pid=1576 "A/B"
