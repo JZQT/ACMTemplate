@@ -8,23 +8,23 @@
 
 ## 欧拉函数公式
 
-$\varphi(n) = n (1-\frac{1}{p1}) (1-\frac{1}{p2}) (1-\frac{1}{p3}) \cdots (1-\frac{1}{pk})$
+$\varphi(n) = n (1-\cfrac{1}{p1}) (1-\cfrac{1}{p2}) (1-\cfrac{1}{p3}) \cdots (1-\cfrac{1}{pk})$
 
 也可写做
 
-$phi(n) = n * \frac{p1-1}{p1} * \frac{p2-1}{p2} * \frac{p3-1}{p3} * ··· * \frac{pk-1}{pk}$
+$phi(n) = n \cdot \cfrac{p1-1}{p1} \cdot \cfrac{p2-1}{p2} \cdot \cfrac{p3-1}{p3} \cdots \cfrac{pk-1}{pk}$
 
 其中$p1, p2, \cdots , pk$为n分解出的不同的质因数。
 
 ## 欧拉函数值的定义
 
 1. $\varphi(1) = 1$
-2. 如果n是素数p的k次幂，那么$\varphi(n) = p^k - p^(k-1) = (p-1) * p^{k-1}$
-3. 如果m与n互质，那么$\varphi(mn) = \varphi(m) * \varphi(n)$
+2. 如果n是素数p的k次幂，那么$\varphi(n) = p^k - p^(k-1) = (p-1) \cdot p^{k-1}$
+3. 如果m与n互质，那么$\varphi(mn) = \varphi(m) \cdot \varphi(n)$
 
 由**以上定义**可以**推导出欧拉函数的递推式**，如下
 
-令**p是n的最小质因数**，如果$p^2$**能整除n**，那么 $\varphi(n) = \varphi(\frac{n}{p}) * p$，否则 $\varphi(n) = \varphi(\frac{n}{p}) * (p-1)$
+令$p$是$n$的**最小质因数**，如果$p^2$能**整除**$n$，那么 $\varphi(n) = \varphi(\cfrac{n}{p}) \cdot p$，否则 $\varphi(n) = \varphi(\cfrac{n}{p}) \cdot (p-1)$
 
 ## ACM竞赛中的欧拉函数的求法
 
