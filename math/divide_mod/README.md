@@ -27,7 +27,7 @@
 如果一个剩余系中包含了模$n$情况下所有可能的余数，那么这个剩余系就被称之为是模$n$的一个**完全剩余系**。
 一般来说，模$n$的完全剩余系就是$\lbrace 0, 1, 2, ···, n-1 \rbrace$。
 
-**简化剩余系**(简称**缩系**)是完全剩余系中**与$n$互质**的元素。比如当$n = 12$时，缩系就是$\lbrace 1, 5, 7, 11 \rbrace$。
+**简化剩余系**(简称**缩系**)又称**既约剩余系**，是完全剩余系中**与$n$互质**的元素。比如当$n = 12$时，缩系就是$\lbrace 1, 5, 7, 11 \rbrace$。
 
 在这里，我们将模n的完全剩余系记作$Z_n$，缩系记作$Z_n^*$。
 
@@ -134,8 +134,9 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 |题号                   |备注                               |
 |:----------------------|:----------------------------------|
 |[POJ-1061][PKU1061]    |扩展欧几里德                       |
-|[POJ-1284][PKU1284]    |求原根个数                         |
+|[POJ-1284][PKU1284]    |利用原根性质，欧拉函数             |
 |[POJ-1995][PKU1995]    |快速幂基础题                       |
+|[POJ-2773][PKU2773]    |好题，欧拉函数，需要思考GCD性质    |
 |[POJ-3070][PKU3070]    |矩阵快速幂基础题                   |
 |[POJ-3358][PKU3358]    |好题，欧拉定理，同余运算性质       |
 |[HDOJ-1395][HDU1395]   |欧拉定理                           |
@@ -151,6 +152,7 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 [PKU1061]:http://poj.org/problem?id=1061 "青蛙的约会"
 [PKU1284]:http://poj.org/problem?id=1284 "Primitive Roots"
 [PKU1995]:http://poj.org/problem?id=1995 "Raising Modulo Numbers"
+[PKU2773]:http://poj.org/problem?id=2773 "Happy 2006"
 [PKU3070]:http://poj.org/problem?id=3070 "Fibonacci"
 [PKU3358]:http://poj.org/problem?id=3358 "Period of an Infinite Binary Expansion"
 [HDU1395]:http://acm.hdu.edu.cn/showproblem.php?pid=1395 "2^x mod n = 1"
