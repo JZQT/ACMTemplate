@@ -152,6 +152,7 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 |[HDOJ-1920][HDU1920]   |多个数LCM                          |
 |[HDOJ-4965][HDU4965]   |好题，矩阵快速幂，需要仔细思考优化 |
 |[HDOJ-5019][HDU5019]   |求k大GCD                           |
+|[HDOJ-5171][HDU5171]   |好题，矩阵快速幂                   |
 |[UVaOJ-11827][UVa11827]|求GCD，需要字符串处理              |
 
 [PKU1061]:http://poj.org/problem?id=1061 "青蛙的约会"
@@ -168,4 +169,5 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 [HDU1920]:http://acm.hdu.edu.cn/showproblem.php?pid=1920 "Jackpot"
 [HDU4965]:http://acm.hdu.edu.cn/showproblem.php?pid=4965 "Fast Matrix Calculation"
 [HDU5019]:http://acm.hdu.edu.cn/showproblem.php?pid=5019 "Revenge of GCD"
+[HDU5171]:http://acm.hdu.edu.cn/showproblem.php?pid=5171
 [UVa11827]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2927
