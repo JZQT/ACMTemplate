@@ -1,10 +1,12 @@
 # 素数与函数
 
+---
+
 ## 概述
 
 **素数**又称为**质数**。
 
-一个大于1的自然数，如果除了**1和它本身**之外，不能够被其他自然数**整除**，那么这个数就是**素数**，否则就是**合数**。
+一个大于$1$的自然数，如果除了**$1$和它本身**之外，不能够被其他自然数**整除**，那么这个数就是**素数**，否则就是**合数**。
 
 **任何一个合数都能够被分解成质因数(素因数)的乘积。**
 
@@ -26,23 +28,36 @@
 
     计算不超过n且与n互质的正整数个数。
 
+---
+
 ## 唯一分解定理
 
 **唯一分解定理**又称为**算术基本定理**，它可以表述为
 
 > 任何一个大于1的自然数N，都可以唯一分解成有限个质数的乘积
 >
-> ![唯一分解定理_1](http://7rfk4x.com1.z0.glb.clouddn.com/Unique_Decomposition_Theorem_1.jpg)
+> $N = P_{1}^{a_1}P_{2}^{a_2}P_{3}^{a_3} \cdots P_{n}^{a_n}$
 >
-> 这里![唯一分解定理_2](http://7rfk4x.com1.z0.glb.clouddn.com/Unique_Decomposition_Theorem_2.jpg) 且均为质数，而 a1, a2, ···, an 都是正整数。
+> 其中$P_1 < P_2 < P_3 < \cdots < P_n$且均为质数，而$a_1, a_2, \cdots, a_n$都是正整数。
 
 对于唯一分解定理有以下推论及应用
 
-* 对于一个大于1的自然数N，它的正因子个数为![唯一分解定理_3](http://7rfk4x.com1.z0.glb.clouddn.com/Unique_Decomposition_Theorem_3.jpg) 。
-* 对于一个大于1的自然数N，它的全体正因数之和为![唯一分解定理_4](http://7rfk4x.com1.z0.glb.clouddn.com/Unique_Decomposition_Theorem_4.jpg)。
-* 利用唯一分解定理可以重新定义整数`a`和`b`的最大公约数`Gcd(a,b)`和最小公倍数`Lcm(a,b)`并且证明`a * b = Gcd(a,b) * Lcm(a,b)`。
-* 可证明根号2是无理数
+* 对于一个大于$1$的自然数$N$，假设它的**正因子个数**表示为$d(N)$，那么
+
+    $$d(N) = (1 + a_1)(1 + a_2)(1 + a_3) \cdots (1 + a_n)$$
+
+* 对于一个大于$1$的自然数$N$，假设它的**全体正因数之和**表示为$\phi(N)$，那么
+
+    $$\phi(N) = (1 + P_{1} + P_{1}^{2} + \cdots + P_{1}^{a_1})(1 + P_{2} + P_{2}^{2} + \cdots + P_{2}^{a_2}) \cdots (1 + P_{n} + P_{n}^{2} + \cdots + P_{n}^{a_n})$$
+    或者
+    $$\phi(N) = \cfrac{P_{1}^{a_{1} + 1} - 1}{P_{1} - 1} \cdot \cfrac{P_{2}^{a_{2} + 1} - 1}{P_{2} - 1} \cdots \cfrac{P_{n}^{a_{n} + 1} - 1}{P_{n} - 1}$$
+
+* 对于$n!$的素因子分解中的素数$p$的幂为$[n/p] + [n/p^2] + [n/p^3] + \cdots$
+* 利用唯一分解定理可以重新定义整数$a$和$b$的最大公约数$gcd(a,b)$和最小公倍数$lcm(a,b)$并且证明$a \cdot b = gcd(a,b) \cdot lcm(a,b)$
+* 可证明$\sqrt 2$是无理数
 * 可证明素数个数无限
+
+---
 
 ## 素数定理
 
@@ -65,6 +80,8 @@
 
 素数定理对ACM竞赛有一个最直接的影响就是**我们可以预估N以内的素数个数，从而节省开素数表所需要的内存**。
 
+---
+
 ## 哥德巴赫猜想
 
 谈到素数就不得不谈到**哥德巴赫猜想**这个举世闻名的数论猜想。
@@ -82,6 +99,8 @@
 目前尚未有人从理论上完全证明哥德巴赫猜想，不过根据计算机运行的结果表明，倘若有一个偶数不能够拆分成两个素数的和，那么这个偶数至少上百位！
 
 因此，在ACM竞赛中(数据在64位整型范围内)，哥德巴赫猜想是成立的！
+
+---
 
 ## 题集
 
@@ -102,6 +121,7 @@
 |[HDOJ-1397][HDU1397]   |哥德巴赫猜想水题                   |
 |[HDOJ-1492][HDU1492]   |唯一分解定理基础题                 |
 |[HDOJ-1787][HDU1787]   |欧拉函数基础题                     |
+|[HDOJ-2098][HDU2098]   |素数基础题                         |
 |[HDOJ-2136][HDU2136]   |筛素数的同时可计算答案             |
 |[HDOJ-2161][HDU2161]   |水得无话可说                       |
 |[HDOJ-2608][HDU2608]   |好题，唯一分解定理应用，推理       |
@@ -126,6 +146,7 @@
 [HDU1397]:http://acm.hdu.edu.cn/showproblem.php?pid=1397 "Goldbach's Conjecture"
 [HDU1492]:http://acm.hdu.edu.cn/showproblem.php?pid=1492 "The number of divisors(约数) about Humble Numbers"
 [HDU1787]:http://acm.hdu.edu.cn/showproblem.php?pid=1787 "GCD Again"
+[HDU2098]:http://acm.hdu.edu.cn/showproblem.php?pid=2098 "分拆素数和"
 [HDU2136]:http://acm.hdu.edu.cn/showproblem.php?pid=2136 "Largest prime factor"
 [HDU2161]:http://acm.hdu.edu.cn/showproblem.php?pid=2161 "Primes"
 [HDU2608]:http://acm.hdu.edu.cn/showproblem.php?pid=2608 "0 or 1"

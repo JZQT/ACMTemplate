@@ -1,9 +1,13 @@
 # 整除与剩余
 
+---
+
 ## 符号约定
 
 假设$a$和$b$是两个整数且$b \neq 0$，如果存在整数$c$使得$a = bc$，那么我们就称$a$被$b$整除，或者$b$整除$a$，记作$b \mid a$。
 此时也称为$a$是$b$的倍数，$b$是$a$的因数。而如果$b$不整除$a$，记作$b \nmid a$。
+
+---
 
 ## 求模运算与求余运算
 
@@ -14,16 +18,18 @@
 
 对于**整数**$a$和$b$，**求模**运算和**求余**运算的方法都是两个步骤：
 
-* 求整数商：$c = a\ /\ b$
-* 计算模或者余数：$m = a - c \times b$
+1. 求整数商：$c = a\ /\ b$
+2. 计算模或者余数：$m = a - c \times b$
 
 在第一个步骤中，**求余**运算在取$c$的值时，**向0方向舍入**，**求模**运算则是**向负无穷方向舍入**。
 
-比如计算$-10\ mod\ 3$，**求余**运算算得的$c$的值为$-3$，而**求模**运算则为$-4$。因此最后计算的结果，**求余**运算为$-1$，而求**模**运算则为$2$。
+比如计算$-10\ mod\ 3$，**求余**运算算得的$c$的值为$-3$，而**求模**运算则为$-4$。因此最后计算的结果，**求余**运算为$-1$，而**求模**运算则为$2$。
 
 最后结论是，当$a$与$b$异号时，**求余**运算的结果与$a$同号，而**求模**运算的结果与$b$同号。
 
 **注意：对于程序中的`%`运算符，在不同的环境中含义并不一样，比如在C/C++，JAVA，PHP等，`%`是求余运算，在Python中，`%`是求模运算。**
+
+---
 
 ## 剩余系与模运算
 
@@ -39,10 +45,12 @@
 $Z_n$中的每一个元素都代表所有与它同余的整数。比如在$Z_5$中，$1$代表$\lbrace 1, 6, 11, ··· \rbrace$等所有模$5$余数为$1$的数。
 $Z_n$中所有整数都代表一个同余等价类，因此**在剩余系下的运算都称之为模运算**，比如$Z_5$下的模加法$1 + 4 = 0$，模乘法$3 \times 4 = 2$。
 
+---
+
 ## 同余
 
 **同余**是**数论**上的一种**等价关系**。
-如果两个整数$a$和$b$满足$a - b$能被整数$m$整除(也有这样的说法，如果两个整数$a$和$b$对于模$m$的结果相同)，那么就称$a$和$b$对于模$m$同余。
+如果两个整数$a$和$b$满足$m | (a - b)$(也有这样的说法，如果两个整数$a$和$b$对于模$m$的结果相同)，那么就称$a$和$b$对于模$m$同余。
 
 $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$称为**同余符号**。
 
@@ -99,10 +107,15 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
     $$
     \begin{cases}
     ac \equiv bc(mod\ m) \\
-    (c,m) = 1 \\
+    (c,m) = d \\
     \end{cases}
-    \Rightarrow a \equiv b(mod\ m)
+    \Rightarrow a \equiv b(mod\ m/d)
     $$
+    $$
+    a \equiv b(mod\ m) \Rightarrow (a,m) = (b,m)
+    $$
+
+---
 
 ## 欧拉定理
 
@@ -122,9 +135,11 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 
     $$a^b \equiv a^{b\ mod\ \varphi(m)}(mod\ m)$$
 
-* 如果$a$和$m$都是正整数且$a$与$m$互质$(m>1)$，必有正整数$x$使得$a^x \equiv 1(mod\ m)$，且满足该等式的最小正整数$x_0$必能整除$\varphi(m)$，即$x_0 \mid \varphi(m)$
+* 如果$a$和$m$都是正整数且$a$与$m$互质$(m > 1)$，必有正整数$x$使得$a^x \equiv 1(mod\ m)$，且满足该等式的最小正整数$x_0$必能整除$\varphi(m)$，即$x_0 \mid \varphi(m)$
 
     **注意：枚举一个数的因子尽量不要用时间复杂度为$O(n)$的枚举算法，而要用$O(\sqrt n)$的算法，避免超时。**
+
+---
 
 ## 费马小定理
 
@@ -134,6 +149,8 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 
 费马小定理之所以是欧拉定理的一种特殊情况是因为素数$x$的欧拉函数值为$x-1$，所以当$p$为素数时可以直接将$p-1$代入欧拉定理的欧拉函数，就成了费马小定理。
 
+---
+
 ## 题集
 
 |题号                   |备注                               |
@@ -141,6 +158,7 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 |[POJ-1061][PKU1061]    |扩展欧几里德                       |
 |[POJ-1284][PKU1284]    |利用原根性质，欧拉函数             |
 |[POJ-1995][PKU1995]    |快速幂基础题                       |
+|[POJ-2115][PKU2115]    |线性同余方程基础题                 |
 |[POJ-2773][PKU2773]    |好题，欧拉函数，需要思考GCD性质    |
 |[POJ-3070][PKU3070]    |矩阵快速幂基础题                   |
 |[POJ-3358][PKU3358]    |好题，欧拉定理，同余运算性质       |
@@ -150,6 +168,7 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 |[HDOJ-1577][HDU1577]   |GCD基础题                          |
 |[HDOJ-1905][HDU1905]   |快速幂和判断素数                   |
 |[HDOJ-1920][HDU1920]   |多个数LCM                          |
+|[HDOJ-2035][HDU2035]   |快速幂基础题                       |
 |[HDOJ-4965][HDU4965]   |好题，矩阵快速幂，需要仔细思考优化 |
 |[HDOJ-5019][HDU5019]   |求k大GCD                           |
 |[HDOJ-5171][HDU5171]   |好题，矩阵快速幂                   |
@@ -158,6 +177,7 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 [PKU1061]:http://poj.org/problem?id=1061 "青蛙的约会"
 [PKU1284]:http://poj.org/problem?id=1284 "Primitive Roots"
 [PKU1995]:http://poj.org/problem?id=1995 "Raising Modulo Numbers"
+[PKU2115]:http://poj.org/problem?id=2115 "C Looooops"
 [PKU2773]:http://poj.org/problem?id=2773 "Happy 2006"
 [PKU3070]:http://poj.org/problem?id=3070 "Fibonacci"
 [PKU3358]:http://poj.org/problem?id=3358 "Period of an Infinite Binary Expansion"
@@ -167,7 +187,8 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 [HDU1577]:http://acm.hdu.edu.cn/showproblem.php?pid=1577 "WisKey的眼神"
 [HDU1905]:http://acm.hdu.edu.cn/showproblem.php?pid=1905 "Pseudoprime numbers"
 [HDU1920]:http://acm.hdu.edu.cn/showproblem.php?pid=1920 "Jackpot"
+[HDU2035]:http://acm.hdu.edu.cn/showproblem.php?pid=2035 "人见人爱A^B"
 [HDU4965]:http://acm.hdu.edu.cn/showproblem.php?pid=4965 "Fast Matrix Calculation"
 [HDU5019]:http://acm.hdu.edu.cn/showproblem.php?pid=5019 "Revenge of GCD"
-[HDU5171]:http://acm.hdu.edu.cn/showproblem.php?pid=5171
+[HDU5171]:http://acm.hdu.edu.cn/showproblem.php?pid=5171 "GTY's birthday gift"
 [UVa11827]:http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2927

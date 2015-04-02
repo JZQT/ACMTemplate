@@ -71,9 +71,11 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 * [数学](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math "math")
     * [整除与剩余](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod "divide and mod")
         * [快速幂](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/fast_power "fast power")
-        * [欧几里德算法及其扩展](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/Euclid algorithm "Euclid algorithm")
+        * [欧几里德算法及其扩展](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/Euclid_algorithm "Euclid algorithm")
         * [乘法逆元](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/inverse "inverse")
         * [原根](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/primitive_root "primitive root")
+        * [不定方程](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/diophantine_equation "diophantine equation")
+        * [同余方程](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/divide_mod/congruence_equation "congruence equation")
     * [素数与函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function "prime and function")
         * 素性测试
         * [素数筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method "prime_sieve_method")
@@ -82,6 +84,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
             * [区间筛法](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/prime_sieve_method/interval_sieve "interval sieve")
         * [分解质因数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/factor "factor")
         * [欧拉函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/Euler_function "Euler function")
+        * [反素数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/antiprime "antiprime")
     * 组合数学
 * 计算几何
 
@@ -119,11 +122,11 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |匈牙利算法             |hungary                                |
 |最近公共祖先           |least_common_ancestor(LCA)             |
 |无向图                 |undirected_graph                       |
-|双连通分量             |biconnected_components(bcc)            |
+|双连通分量             |biconnected_components(BCC)            |
 |割点(割顶)             |cut_point(cut_vertex)                  |
 |割边(桥)               |cut_edge(bridge)                       |
 |有向图                 |directed_graph                         |
-|强连通分量             |strongly_connected_components(scc)     |
+|强连通分量             |strongly_connected_components(SCC)     |
 |数学                   |math                                   |
 |整除与剩余             |(divide_mod)                           |
 |快速幂                 |fast_power                             |
@@ -133,7 +136,9 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |扩展欧几里德算法       |extended_Euclidean_algorithm(exgcd)    |
 |乘法逆元               |multiplicative_inverse(inverse)        |
 |原根                   |primitive_root                         |
-|素数(质数)             |prime                                  |
+|不定方程（丢番图方程） |diophantine_equation                   |
+|同余方程               |congruence_equation                    |
+|素数（质数）           |prime                                  |
 |函数                   |function                               |
 |素性测试               |primality_test                         |
 |素数筛法               |prime_sieve_method                     |
@@ -142,5 +147,6 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |区间筛法               |interval_sieve                         |
 |分解质因数             |(factor)                               |
 |欧拉函数               |Euler_function                         |
+|反素数                 |antiprime                              |
 |组合数学               |combinatorics                          |
 |计算几何               |computational_geometry                 |
