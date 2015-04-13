@@ -162,6 +162,7 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 |[POJ-2773][PKU2773]    |好题，欧拉函数，需要思考GCD性质    |
 |[POJ-3070][PKU3070]    |矩阵快速幂基础题                   |
 |[POJ-3358][PKU3358]    |好题，欧拉定理，同余运算性质       |
+|[HDOJ-1211][HDU1211]   |快速幂或同余方程，水题             |
 |[HDOJ-1395][HDU1395]   |欧拉定理                           |
 |[HDOJ-1420][HDU1420]   |快速幂基础题                       |
 |[HDOJ-1576][HDU1576]   |乘法逆元基础题                     |
@@ -181,6 +182,7 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 [PKU2773]:http://poj.org/problem?id=2773 "Happy 2006"
 [PKU3070]:http://poj.org/problem?id=3070 "Fibonacci"
 [PKU3358]:http://poj.org/problem?id=3358 "Period of an Infinite Binary Expansion"
+[HDU1211]:http://acm.hdu.edu.cn/showproblem.php?pid=1211 "RSA"
 [HDU1395]:http://acm.hdu.edu.cn/showproblem.php?pid=1395 "2^x mod n = 1"
 [HDU1420]:http://acm.hdu.edu.cn/showproblem.php?pid=1420 "Prepared for New Acmer"
 [HDU1576]:http://acm.hdu.edu.cn/showproblem.php?pid=1576 "A/B"
