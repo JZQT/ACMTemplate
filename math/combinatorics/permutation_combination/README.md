@@ -34,28 +34,70 @@
 
 ### 代码实现
 
-* **利用公式递推求组合数**，时间复杂度为$O(n^2)$，下面给出参考代码实现
+* **直接计算排列数单值**，时间复杂度为$O(n)$
 
     ```cpp
-    void Comb()     // 调用该函数后，C[m][n] 表示 C(m,n)
+    int Perm(int m, int n)  // Perm(m, n) 表示 A(m, n)
     {
-        memset(C, 0, sizeof(C));
+        int res = 1;
+        for (int i=0; i<n; ++i)
+        {
+            res *= m - i;
+        }
+        return res;
+    }
+    ```
+
+* **直接计算组合数单值**，时间复杂度为$O(n)$
+
+    ```cpp
+    int Comb(int m, int n)  // Comb(m, n) 表示 C(m, n)
+    {
+        int res = 1;
+        for (int i=1; i<=n; ++i)
+        {
+            res = res * (m - i + 1) / i;
+        }
+        return res;
+    }
+    ```
+
+* **递推预处理求组合数**，时间复杂度为$O(n^2)$
+
+    ```cpp
+    int comb[N][N];
+
+    void GetComb()          // 调用该函数后，comb[m][n] 表示 C(m,n)
+    {
+        memset(comb, 0, sizeof(comb));
         for (int i=1; i<N; ++i)
         {
-            C[i][0] = 1;
-            C[i][1] = i;
-            C[i][i] = 1;
+            comb[i][0] = 1;
+            comb[i][1] = i;
+            comb[i][i] = 1;
         }
         for (int i=2; i<N; ++i) 
         {
             for (int j=2; j<i; ++j) 
             {
-                C[i][j] = C[i-1][j-1] + C[i-1][j];
+                comb[i][j] = comb[i-1][j-1] + comb[i-1][j];
             }
         }
         return;
     }
     ```
+
+---
+
+## 基本计数原理
+
+### 加法原理
+
+假设做一件事有$n$种办法，第$i$个办法有$P_i$种方案，那么做这一件事一共有$P_1 + P_2 + P_3 + \cdots + P_n$种方案。
+
+### 乘法原理
+
+假设做一件事有$n$个步骤，第$i$个步骤有$P_i$种方案，那么做这件事一共有$P_1 \cdot P_2 \cdot P_3 \cdots P_n$种方案。
 
 ---
 
