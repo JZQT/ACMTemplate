@@ -21,24 +21,20 @@
 * 从2开始循环到不大于根号N的整数
     * 如果该数是素数
         * 将该数不大于N的倍数设置为合数
-        * 将该数加入素数表
 * 结束
 
 对于以上的算法步骤，埃氏筛法的代码如下
 ```cpp
 bool isprime[N];        //判断是否为素数
-int primes[N], pn;      //素数表以及素数个数
 
 void Eratosthenes(int maxn) //筛[0,maxn]以内的素数
 {
     memset(isprime, true, sizeof(isprime));
     isprime[0] = isprime[1] = falses;
-    pn = 0;
     int cnt = (int)sqrt(maxn + 0.5) + 1;
     for (int i=2; i<cnt; ++i)
     {
         if (!isprime[i]) continue;
-        primes[pn++] = i;
         for (int j=i+i; j<=maxn; j+=i)
         {
             isprime[j] = false;
