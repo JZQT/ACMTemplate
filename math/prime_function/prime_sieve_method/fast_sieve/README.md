@@ -20,10 +20,10 @@
 bool isprime[N];        //判断是否为素数
 int primes[N], pn;      //素数表及素数个数
 
-void FastSieve(int maxn)    //筛[0,maxn]区间的素数
+void FastSieve(int maxn)    //筛区间[0,maxn]的素数
 {
     memset(isprime, true, sizeof(isprime));
-    isprime[0] = isprime[1] = true;
+    isprime[0] = isprime[1] = false;
     pn = 0;
     for (int i=2; i<=maxn; ++i)
     {
