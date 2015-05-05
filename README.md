@@ -90,6 +90,8 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
         * [欧拉函数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/Euler_function "Euler function")
         * [反素数](https://coding.net/u/JZQT/p/ACM_Template/git/tree/master/math/prime_function/antiprime "antiprime")
     * 组合数学
+        * 排列组合
+        * 母函数
 * 计算几何
 
 ---
@@ -115,7 +117,7 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |哈希表                 |hash_table                             |
 |幷查集                 |union_find_set                         |
 |字典树                 |trie                                   |
-|树状数组(二叉索引树)   |binary_indexed_tree                    |
+|树状数组（二叉索引树） |binary_indexed_tree                    |
 |线段树                 |segment_tree                           |
 |图论                   |graph_theory                           |
 |存图方式               |save_graph                             |
@@ -155,11 +157,13 @@ ACM模板知识库项目，包含**文档**和**代码**两类。供**学习**�
 |欧拉函数               |Euler_function                         |
 |反素数                 |antiprime                              |
 |组合数学               |combinatorics                          |
+|排列组合               |permutation_combination                |
+|母函数                 |generating_function                    |
 |计算几何               |computational_geometry                 |
 
 ---
 
-## 教条
+## 小贴士
 
 * 用`<stdio.h>`不要用`<cstdio>`或`<iostream>`
 
