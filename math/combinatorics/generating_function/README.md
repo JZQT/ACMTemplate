@@ -108,11 +108,8 @@ void Generate()
                 tmp[k * i + j] += coe[j];   // ---> (5)
             }
         }
-        for (int j=0; j<=m; ++j)    // -----------> (6)
-        {
-            coe[j] = tmp[j];
-            tmp[j] = 0;
-        }
+        memcpy(coe, tmp, sizeof(coe));  // -------> (6)
+        memset(tmp, 0, sizeof(tmp));
     }
     return;
 }
