@@ -103,7 +103,7 @@ void Generate()
         for (int j=0; j<=m; ++j)    // -----------> (3)
         {
             if (coe[j] == 0) continue;
-            for (int k=0; k<num[k]; ++k)    // ---> (4)
+            for (int k=0; k<=num[i]; ++k)   // ---> (4) /*`k<=num[i]`这里是个易错点*/
             {
                 tmp[k * i + j] += coe[j];   // ---> (5)
             }
