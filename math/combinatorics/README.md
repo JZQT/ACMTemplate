@@ -11,6 +11,7 @@
 |[HDOJ-1028][HDU1028]   |普通母函数基础题                   |
 |[HDOJ-1085][HDU1085]   |普通母函数基础题                   |
 |[HDOJ-1398][HDU1398]   |普通母函数基础题                   |
+|[HDOJ-1709][HDU1709]   |普通母函数                         |
 |[HDOJ-2082][HDU2082]   |普通母函数基础题                   |
 
 [PKU1496]:http://poj.org/problem?id=1496 "Word Index"
@@ -18,4 +19,5 @@
 [HDU1028]:http://acm.hdu.edu.cn/showproblem.php?pid=1028 "Ignatius and the Princess III"
 [HDU1085]:http://acm.hdu.edu.cn/showproblem.php?pid=1085 "Holding Bin-Laden Captive!"
 [HDU1398]:http://acm.hdu.edu.cn/showproblem.php?pid=1398 "Square Coins"
+[HDU1709]:http://acm.hdu.edu.cn/showproblem.php?pid=1709 "The Balance"
 [HDU2082]:http://acm.hdu.edu.cn/showproblem.php?pid=2082 "找单词"
