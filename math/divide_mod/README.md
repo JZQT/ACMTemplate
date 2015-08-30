@@ -153,27 +153,28 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 
 ## 题集
 
-|题号                   |备注                               |
-|:----------------------|:----------------------------------|
-|[POJ-1061][PKU1061]    |扩展欧几里德                       |
-|[POJ-1284][PKU1284]    |利用原根性质，欧拉函数             |
-|[POJ-1995][PKU1995]    |快速幂基础题                       |
-|[POJ-2115][PKU2115]    |线性同余方程基础题                 |
-|[POJ-2773][PKU2773]    |好题，欧拉函数，需要思考GCD性质    |
-|[POJ-3070][PKU3070]    |矩阵快速幂基础题                   |
-|[POJ-3358][PKU3358]    |好题，欧拉定理，同余运算性质       |
-|[HDOJ-1211][HDU1211]   |快速幂或同余方程，水题             |
-|[HDOJ-1395][HDU1395]   |欧拉定理                           |
-|[HDOJ-1420][HDU1420]   |快速幂基础题                       |
-|[HDOJ-1576][HDU1576]   |乘法逆元基础题                     |
-|[HDOJ-1577][HDU1577]   |GCD基础题                          |
-|[HDOJ-1905][HDU1905]   |快速幂和判断素数                   |
-|[HDOJ-1920][HDU1920]   |多个数LCM                          |
-|[HDOJ-2035][HDU2035]   |快速幂基础题                       |
-|[HDOJ-4965][HDU4965]   |好题，矩阵快速幂，需要仔细思考优化 |
-|[HDOJ-5019][HDU5019]   |求k大GCD                           |
-|[HDOJ-5171][HDU5171]   |好题，矩阵快速幂                   |
-|[UVaOJ-11827][UVa11827]|求GCD，需要字符串处理              |
+|题号                   |备注                                           |
+|:----------------------|:----------------------------------------------|
+|[POJ-1061][PKU1061]    |扩展欧几里德                                   |
+|[POJ-1284][PKU1284]    |利用原根性质，欧拉函数                         |
+|[POJ-1995][PKU1995]    |快速幂基础题                                   |
+|[POJ-2115][PKU2115]    |线性同余方程基础题                             |
+|[POJ-2773][PKU2773]    |好题，欧拉函数，需要思考GCD性质                |
+|[POJ-3070][PKU3070]    |矩阵快速幂基础题                               |
+|[POJ-3233][PKU3233]    |好题，矩阵快速幂，二分优化或者矩阵套矩阵优化   |
+|[POJ-3358][PKU3358]    |好题，欧拉定理，同余运算性质                   |
+|[HDOJ-1211][HDU1211]   |快速幂或同余方程，水题                         |
+|[HDOJ-1395][HDU1395]   |欧拉定理                                       |
+|[HDOJ-1420][HDU1420]   |快速幂基础题                                   |
+|[HDOJ-1576][HDU1576]   |乘法逆元基础题                                 |
+|[HDOJ-1577][HDU1577]   |GCD基础题                                      |
+|[HDOJ-1905][HDU1905]   |快速幂和判断素数                               |
+|[HDOJ-1920][HDU1920]   |多个数LCM                                      |
+|[HDOJ-2035][HDU2035]   |快速幂基础题                                   |
+|[HDOJ-4965][HDU4965]   |好题，矩阵快速幂，需要仔细思考优化             |
+|[HDOJ-5019][HDU5019]   |求k大GCD                                       |
+|[HDOJ-5171][HDU5171]   |好题，矩阵快速幂                               |
+|[UVaOJ-11827][UVa11827]|求GCD，需要字符串处理                          |
 
 [PKU1061]:http://poj.org/problem?id=1061 "青蛙的约会"
 [PKU1284]:http://poj.org/problem?id=1284 "Primitive Roots"
@@ -181,6 +182,7 @@ $a$和$b$对于模$m$同余，记作$a \equiv b(mod\ m)$。其中符号$\equiv$�
 [PKU2115]:http://poj.org/problem?id=2115 "C Looooops"
 [PKU2773]:http://poj.org/problem?id=2773 "Happy 2006"
 [PKU3070]:http://poj.org/problem?id=3070 "Fibonacci"
+[PKU3233]:http://poj.org/problem?id=3233 "Matrix Power Series"
 [PKU3358]:http://poj.org/problem?id=3358 "Period of an Infinite Binary Expansion"
 [HDU1211]:http://acm.hdu.edu.cn/showproblem.php?pid=1211 "RSA"
 [HDU1395]:http://acm.hdu.edu.cn/showproblem.php?pid=1395 "2^x mod n = 1"
