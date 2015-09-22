@@ -11,5 +11,7 @@
 |题号                   |备注                               |
 |:----------------------|:----------------------------------|
 |[HDOJ-2544][HDU2544]   |最短路基础题                       |
+|[POJ-3613][PKU3613]    |好题，矩阵快速幂的思想求最短路     |
 
 [HDU2544]:http://acm.hdu.edu.cn/showproblem.php?pid=2544 "最短路"
+[PKU3613]:http://poj.org/problem?id=3613 "Cow Relays"
